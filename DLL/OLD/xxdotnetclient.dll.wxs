@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+ 
+    <Fragment Id="xxdotnetclient.dll">
+        <DirectoryRef Id="dir5B7E63C261D06EBF88AB6EC2753E0606">
+            <Component Id="cmpCB3D54CFDFC03B6F3B8BE2E305ED0B0C" Guid="0fd19808-ab09-4e97-b8b7-f19809fed2a2">
+                <File Id="filCBDAC72D035CEECE9E2C5BEC3334BCA8" KeyPath="yes" Source="SourceDir\DLL\xxdotnetclient.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+</Wix>

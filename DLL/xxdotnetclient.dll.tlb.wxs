@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="xxdotnetclient.tlb">
+            <Component Id="cmp1D626018475577C2437FFE30714F74F1" Directory="SystemFolder" Guid="{0BC72021-C5F1-49F0-8834-F9280BA3D675}">
+                <File Id="fil991A878E5A699FE277FEA05B71738BCA" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\xxdotnetclient.dll.tlb">
+                    <TypeLib Id="{8481293B-A0F9-4A85-B6C5-3F07309A6DC6}" Description="xxdotnetclient" HelpDirectory="SystemFolder" Language="0" MajorVersion="3" MinorVersion="0" />
+                </File>
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

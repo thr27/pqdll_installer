@@ -1,0 +1,53 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.FarelogixWS.FlxWS]
+@="proQuest.airQuest.FarelogixWS.FlxWS"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.FarelogixWS.FlxWS\CLSID]
+@="{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}"
+
+[HKEY_CLASSES_ROOT\CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}]
+@="proQuest.airQuest.FarelogixWS.FlxWS"
+
+[HKEY_CLASSES_ROOT\CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.FarelogixWS.FlxWS"
+"Assembly"="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\InprocServer32\1.0.2.0]
+"Class"="proQuest.airQuest.FarelogixWS.FlxWS"
+"Assembly"="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\ProgId]
+@="proQuest.airQuest.FarelogixWS.FlxWS"
+
+[HKEY_CLASSES_ROOT\CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.FarelogixWS.FlxWS+Logger]
+@="proQuest.airQuest.FarelogixWS.FlxWS+Logger"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.FarelogixWS.FlxWS+Logger\CLSID]
+@="{E85C4210-801B-3E6A-B528-2314F3AA35C5}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}]
+@="proQuest.airQuest.FarelogixWS.FlxWS+Logger"
+
+[HKEY_CLASSES_ROOT\CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.FarelogixWS.FlxWS+Logger"
+"Assembly"="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\InprocServer32\1.0.2.0]
+"Class"="proQuest.airQuest.FarelogixWS.FlxWS+Logger"
+"Assembly"="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\ProgId]
+@="proQuest.airQuest.FarelogixWS.FlxWS+Logger"
+
+[HKEY_CLASSES_ROOT\CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

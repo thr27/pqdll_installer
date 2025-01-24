@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+  <Fragment Id="NETFRAMEWORK35_SP_LEVEL">
+   
+    <util:RegistrySearchRef Id="NETFRAMEWORK35_SP_LEVEL"/>    
+	<Feature Id="NetFx35Redist" />
+	 <FeatureRef Id="Install_Net35fx" />
+    <PackageGroup Id="NetFx35Redist">
+      <ExePackage
+          SourceFile="{a path on my network}\Microsoft\DotNetFx\3.5\dotnetfx35.exe"
+          DisplayName="Microsoft .NET Framework 3.5 Full"
+          InstallCondition="VersionNT &lt; v6.1"
+          InstallCommand="/q /norestart"
+          RepairCommand="/q /norestart /f"
+          UninstallCommand="/q /norestart /uninstall"
+          PerMachine="yes"
+          DetectCondition="NETFRAMEWORK35_SP_LEVEL &gt;= 1"
+          Id="dotnetfx35.exe"
+          Vital="yes"
+          Permanent="yes"
+          Protocol="none"
+          Compressed="yes"
+          Name="redist\dotnetfx35.exe">
+        <!-- Exit codes
+             0 = Successful installation.
+          3010 = Successful installation; however, a system reboot is required.
+        -->
+        <ExitCode Value="0" Behavior="success" />
+        <ExitCode Value="3010" Behavior="forceReboot" />
+        <ExitCode Behavior="error"/>
+      </ExePackage>
+    </PackageGroup>
+	 
+  </Fragment>
+</Wix>

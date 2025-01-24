@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="zlib.net">
+            <Component Id="cmp908A41589824C3877E5CFB188D6E7DF6" Directory="SystemFolder" Guid="{59691530-8605-4EAA-BAEF-2CE5E353F75C}">
+                <Class Id="{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}" Context="InprocServer32" Description="zlib.ZStreamException" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="zlib.ZStreamException" Description="zlib.ZStreamException" />
+                </Class>
+                <Class Id="{2EC318FE-1A26-3464-A964-D9008B69FADC}" Context="InprocServer32" Description="zlib.SupportClass" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="zlib.SupportClass" Description="zlib.SupportClass" />
+                </Class>
+                <Class Id="{335C2D3D-81A5-35F5-A30F-29D3274BC59E}" Context="InprocServer32" Description="zlib.ZStream" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="zlib.ZStream" Description="zlib.ZStream" />
+                </Class>
+                <Class Id="{A881094F-FC17-36E1-A650-8D28EB716D41}" Context="InprocServer32" Description="zlib.zlibConst" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="zlib.zlibConst" Description="zlib.zlibConst" />
+                </Class>
+                <File Id="filA52F8A01B43AB357EA91184071680FBE" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\zlib.net.dll" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0" Name="Class" Value="zlib.ZStreamException" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32" Name="Class" Value="zlib.ZStreamException" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0" Name="Class" Value="zlib.SupportClass" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32" Name="Class" Value="zlib.SupportClass" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0" Name="Class" Value="zlib.ZStream" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32" Name="Class" Value="zlib.ZStream" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0" Name="Class" Value="zlib.zlibConst" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32" Name="Class" Value="zlib.zlibConst" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32" Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32" Name="RuntimeVersion" Value="v1.1.4322" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32" Name="CodeBase" Value="file:///[#filA52F8A01B43AB357EA91184071680FBE]" Type="string" Action="write" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

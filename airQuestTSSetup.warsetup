@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WarSetup-Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" menuShortcutDirName="" overRideMenuShortcutDir="false" projectRunAfterInstall="true" mainTargetApp="ID_aa503b74_4f3a_4d0c_b67b_0fe918268cd2" nextUniqueId="1377" projectName="airQuest TS" projectUuid="1f965998-4df1-4550-b3ec-9edb550107b7" projectUpgradeUuid="184fe185-476e-47c6-b7d4-e1892295b987" projectVersion="2.0.1" projectOrganization="FTI Ticketshop GmbH" projectFromWindowsVersion="Windows 8" projectMustBeAdministratorToInstall="true" project64BitTarget="false" projectTargetDirectory="S:\Tulip\Installer\proquestDLL\build.TS" projectTargetName="airQuestTSSetup" projectType="0" projectUserInterface="WixUI_Minimal">
+  <LicencePaths>
+    <string>C:\Program Files (x86)\MajorSilence\War Setup Fork\Licenses</string>
+  </LicencePaths>
+  <Virgin>false</Virgin>
+  <projectFeatures featureId="IDBE93D2553CBE1852A7943A487AE0E745" featureName="airQuest TS" featureDescription="The complete package" configurableDirectory="APPLICATIONFOLDER" configurableDirectoryDefaultPath="[ProjectName]" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+    <childFeatures featureId="PROGRAM" featureName="Program" featureDescription="Start airQuest in TS Session " enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+      <components componentId="ID1001" componentGuid="50b4f7e4-3ae0-4b68-8d2e-f4263de7fa1e">
+        <componentFiles fileId="ID_d051acab_9eca_44e6_9aa8_d466e8b2c2e8" srcName="airquest.ico" srcDirectory="S:\Tulip\Installer\proquestDLL" dstName="airquest.ico" dstPath="" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="airquest" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1000" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1003" componentGuid="b9024c2f-ec06-4a7c-8bb1-4f6d4b6383be">
+        <componentFiles fileId="ID_aa503b74_4f3a_4d0c_b67b_0fe918268cd2" srcName="start_aq_cli.cmd" srcDirectory="S:\Tulip\Installer\proquestDLL\Scripts" dstName="start_aq_cli.cmd" dstPath="" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="airQuest TS" shortcutInProgramFilesMenu="true" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="[TempFolder]" shortcutCommandArguments="-c runaq_ts" shortcutDescription="Start airQuest">
+          <service StartWhenInstalled="true" Remove="both" id="ID1002" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <defaultInstallMode>3</defaultInstallMode>
+    </childFeatures>
+    <defaultInstallMode>3</defaultInstallMode>
+  </projectFeatures>
+  <projectInstallForCurrentOrAllUsers>1</projectInstallForCurrentOrAllUsers>
+  <License>
+    <System>true</System>
+    <Name>Common Public License Version 1.0</Name>
+  </License>
+  <projectProperties LicencePath="" TopBanner="" BigBanner="" ExclamationIcon="" InfoIcon="" NewIcon="" UpIcon="" VS2003Integration="VS2003_INTEGRATION" VS2005Integration="VS2005_INTEGRATION" UseRelativePaths="true" LaunchAppText="" UseWixUI_ErrorProgressText="true" UseWixUI="true" CreateUninstallShortcut="true" Codepage="1252" ProductLanguage="1033" AlwaysMajorUpgrade="true" SupressValidation="false" Compress="true" BuildTarget="true" PublisherUrl="" SupportContact="" SupportUrl="" SupportPhone="" ReadMeFile="" UpdateUrl="" Comments="Install Script to start airQuest" Icon="[APPLICATIONFOLDER]\airquest.ico" EmbedCab="true" MaxCabSize="0" CabCompressionLevel="mszip" InstallerVersion="300">
+    <UiCultures Name="en-US" Enabled="true" />
+    <UiCultures Name="de-de" Enabled="false" />
+    <UiCultures Name="es-es" Enabled="false" />
+    <UiCultures Name="nl-nl" Enabled="false" />
+  </projectProperties>
+</WarSetup-Project>

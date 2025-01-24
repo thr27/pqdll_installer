@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment Id="Include All generated Components">
+		<Feature Id="WIXInclude"
+			 Title="proquestDll Registrations"
+			 Level="1"
+			 InstallDefault="local"
+			 >
+			<ComponentGroupRef Id="proquestDLLWiX" />
+		</Feature>
+    </Fragment>
+</Wix>

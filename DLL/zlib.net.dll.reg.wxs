@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <ComponentGroup Id="zlib.net.reg">
+            <Component Id="cmp87384D00DB39A6C95BDB9CAD706B3ED4" Directory="TARGETDIR" Guid="{99F12C04-8FA2-465B-BC7C-72436CD41003}" KeyPath="yes">
+                <RegistryKey Key="zlib.SupportClass" Root="HKCR">
+                    <RegistryValue Value="zlib.SupportClass" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB977BDB62549DF588CD95D8C4FDA9A84" Directory="TARGETDIR" Guid="{6E2CC4C7-BD11-43B4-A8FA-B9B8681438D4}" KeyPath="yes">
+                <RegistryKey Key="zlib.SupportClass\CLSID" Root="HKCR">
+                    <RegistryValue Value="{2EC318FE-1A26-3464-A964-D9008B69FADC}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDFEC27FDC1ABD6D0C0EB3FA2DC36C48B" Directory="TARGETDIR" Guid="{CD283F60-BD1F-4B7A-8ADE-CC8D1D93DA16}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}" Root="HKCR">
+                    <RegistryValue Value="zlib.SupportClass" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDB939C25FEEDAA0D4686A2EE492AF48C" Directory="TARGETDIR" Guid="{63F38F4F-D1DB-462F-BEED-86B34E967234}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="zlib.SupportClass" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpAD3635FEF32D33F3F072A7A0E287C38D" Directory="TARGETDIR" Guid="{AA79336C-B91B-4B53-9BEA-B3FDB7A1D99F}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="zlib.SupportClass" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp30ED4F3FF853540CD4F4B32CDC8068DA" Directory="TARGETDIR" Guid="{D0BB35AD-F444-42E4-A90D-DD8936C1A119}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\ProgId" Root="HKCR">
+                    <RegistryValue Value="zlib.SupportClass" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp71974D98F0CB7F21AD963976D6D69B94" Directory="TARGETDIR" Guid="{A8635E39-5E10-4F51-AF6D-472B8CEB3E08}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpEC82F452097F8485B5878F9969E74818" Directory="TARGETDIR" Guid="{7C1B98AC-25D3-4F71-BC9E-7C5C434DF0D2}" KeyPath="yes">
+                <RegistryKey Key="zlib.zlibConst" Root="HKCR">
+                    <RegistryValue Value="zlib.zlibConst" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp90AFFA88B5EEF41B80CDDEE1B107062B" Directory="TARGETDIR" Guid="{69C9BABD-998C-4B5A-A3CB-E98AE8347CF9}" KeyPath="yes">
+                <RegistryKey Key="zlib.zlibConst\CLSID" Root="HKCR">
+                    <RegistryValue Value="{A881094F-FC17-36E1-A650-8D28EB716D41}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp1655E7E388AC30127281C8CFD39BB17C" Directory="TARGETDIR" Guid="{7A71F5EF-0979-4B61-8CB0-649748D083C5}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}" Root="HKCR">
+                    <RegistryValue Value="zlib.zlibConst" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp08B64F278E458D55D153407A57EA5B19" Directory="TARGETDIR" Guid="{7F324A49-61A9-4A6D-B419-99909BE78FBA}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="zlib.zlibConst" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8C588225DED4947B9C0A4BB2A2F3C46B" Directory="TARGETDIR" Guid="{3F6BF3F3-BB36-42BA-B99E-CFEE55F36ADE}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="zlib.zlibConst" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpBEDCD346731B32F0A1FF1574ECC627B2" Directory="TARGETDIR" Guid="{4FD030ED-92C5-4ABB-BC78-5B1F4CA23DF8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\ProgId" Root="HKCR">
+                    <RegistryValue Value="zlib.zlibConst" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp067A40CBF9F11E1EE8221B937066A1D0" Directory="TARGETDIR" Guid="{D90F9BD9-F980-4FF5-A956-AD6AAC3CAB8F}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpE3CF56695FFC11BD87BD5305B0C40BC8" Directory="TARGETDIR" Guid="{DE41EF1A-598F-43F9-9AB7-E76BBA4B2266}" KeyPath="yes">
+                <RegistryKey Key="zlib.ZStream" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStream" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8E247FDD1B7323896FD40AEECEE9EDDA" Directory="TARGETDIR" Guid="{7EB74367-9B89-4FF8-8116-17AF846AF4EA}" KeyPath="yes">
+                <RegistryKey Key="zlib.ZStream\CLSID" Root="HKCR">
+                    <RegistryValue Value="{335C2D3D-81A5-35F5-A30F-29D3274BC59E}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE7879C9DE31C8B7B2E78BD87EC040461" Directory="TARGETDIR" Guid="{07234707-9930-4E37-9C09-D943E9510AFA}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStream" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB52E4B83C71C19DF86DCF31F166C364B" Directory="TARGETDIR" Guid="{65868CC4-1BFF-4C37-9FB9-5E4C628598B2}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="zlib.ZStream" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp9B2445392F7347052D039AF8D06747CD" Directory="TARGETDIR" Guid="{0D734320-0DCC-4667-8D9D-C69D3B852D84}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="zlib.ZStream" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpBD24AAB77CEDF29281DA632F394D8AC9" Directory="TARGETDIR" Guid="{3F15AD0D-059C-4042-845A-59C4094D2A95}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\ProgId" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStream" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA7469D81571B1EC3944D561A062E8EF5" Directory="TARGETDIR" Guid="{E4BB14C1-EA88-4715-B0F1-6F5677AD15B5}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp5530768A9B4025067714D9DC5F66A7F5" Directory="TARGETDIR" Guid="{38C8F683-D3E3-426F-B359-1F5C503DAB96}" KeyPath="yes">
+                <RegistryKey Key="zlib.ZStreamException" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStreamException" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE93FB9646904A92E59FB3D77F3C373F1" Directory="TARGETDIR" Guid="{865F482C-0E37-43FE-841C-AF1E3E23FAA8}" KeyPath="yes">
+                <RegistryKey Key="zlib.ZStreamException\CLSID" Root="HKCR">
+                    <RegistryValue Value="{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2DA39FAE0BB18C59C67F0A94A3631214" Directory="TARGETDIR" Guid="{AAAE0069-4C4E-40CA-AC7C-18B97C38F07B}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStreamException" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5B79CB69EB08B038D427184BD5BE3B83" Directory="TARGETDIR" Guid="{2FBC49D5-B777-40B9-B316-1522BBB46017}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="zlib.ZStreamException" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD9D20B8497C9A4C06857F7A08BAE76EA" Directory="TARGETDIR" Guid="{B9671335-C84D-4454-BDA7-7F7D1E0CBA42}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="zlib.ZStreamException" Type="string" />
+                    <RegistryValue Name="Assembly" Value="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v1.1.4322" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5B7667CAB3F06AD30B9867FCB42E77B3" Directory="TARGETDIR" Guid="{ECD48D38-4D2B-489C-971C-A9E55A77992E}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\ProgId" Root="HKCR">
+                    <RegistryValue Value="zlib.ZStreamException" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp65C6B25086FC79612B4556D54AA17B77" Directory="TARGETDIR" Guid="{A2C34B11-72A2-40C9-A200-6BC7BB6FA488}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

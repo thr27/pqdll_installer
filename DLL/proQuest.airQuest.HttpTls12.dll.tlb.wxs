@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="proQuest.airQuest.HttpTls12.tlb">
+            <Component Id="cmpD3FB4EC6F95786615E68AC4A4115EC76" Directory="SystemFolder" Guid="{72F16629-16D3-4B30-8BDB-BBA521B24841}">
+                <File Id="fil747BB39471E149EA7EB4692510C7CCD0" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\proQuest.airQuest.HttpTls12.dll.tlb">
+                    <TypeLib Id="{E2E00221-49C8-48A1-BDFC-519283531B23}" Description="proQuest_airQuest_HttpTls12" HelpDirectory="SystemFolder" Language="0" MajorVersion="1" MinorVersion="0">
+                        <Interface Id="{480EEBA3-5EFC-3F1D-801B-6D83280F3C64}" Name="_HttpTls12" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                    </TypeLib>
+                </File>
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WarSetup-Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" menuShortcutDirName="" overRideMenuShortcutDir="false" projectRunAfterInstall="false" nextUniqueId="3689" projectName="proquestDLL" projectUuid="b3cfd354-8e7c-4d5d-8f7a-0cff04a0f58e" projectUpgradeUuid="b0604555-8eea-44d3-af5a-101aebd80e22" projectVersion="2.0.1" projectOrganization="Tulip" projectFromWindowsVersion="Windows 8" projectMustBeAdministratorToInstall="true" project64BitTarget="false" projectTargetDirectory="S:\Tulip\Installer\proquestDLL\build" projectRequireDotNetVersion="" projectTargetName="proquestDLLSetup" projectType="0" projectUserInterface="">
+  <LicencePaths>
+    <string>C:\Program Files (x86)\MajorSilence\War Setup Fork\Licenses</string>
+  </LicencePaths>
+  <Virgin>false</Virgin>
+  <projectFeatures featureId="ID323C559340E3933EBDB12B728AC41C40" featureName="proquestDLL" featureDescription="The complete package" configurableDirectory="" configurableDirectoryDefaultPath="" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+    <childFeatures featureId="PROGRAM" featureName="System DLLs" featureDescription="The System DLLs" configurableDirectory="" configurableDirectoryDefaultPath="[SystemFolder]" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+      <components componentId="ID1001" componentGuid="a8be10d4-5d6e-4e17-9dd5-f61922f622f4">
+        <componentFiles fileId="ID_a9eb6ed9_8b42_4245_aaef_c598fe816d75" srcName="airquest.neoapi.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="airquest.neoapi.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="airquest.neoapi" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1000" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1003" componentGuid="46935ebc-f865-4871-a2db-0d22d3bd34d8">
+        <componentFiles fileId="ID_5d38fc17_77bc_4c2a_a3a1_65f6f59a033f" srcName="airquest.neoapi.http.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="airquest.neoapi.http.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="airquest.neoapi.http" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1002" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1007" componentGuid="ac95fb61-1f30-4522-bb7b-8275e507ec17">
+        <componentFiles fileId="ID_a3180876_f597_4e89_b4e5_350526054ff2" srcName="COMWRAPPER4MANAGED.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="COMWRAPPER4MANAGED.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="true" typelibGuid="4843D46B-2E04-4527-AB69-A85EDB76442D" menuName="COMWRAPPER4MANAGED" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1006" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1009" componentGuid="d4ee1a0a-f3df-4df1-939d-44023c88ce05">
+        <componentFiles fileId="ID_12e75e45_4ad6_44af_b2fe_b9462934077b" srcName="de.proquest.airquest.galileows.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="de.proquest.airquest.galileows.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="de.proquest.airquest.galileows" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1008" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1011" componentGuid="3a871128-e020-43e2-a43f-50c930767bcd">
+        <componentFiles fileId="ID_e729dcec_94ab_4527_9348_e33cce93184c" srcName="de.proquest.airquest.galileows.xmlserializers.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="de.proquest.airquest.galileows.xmlserializers.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="de.proquest.airquest.galileows.xmlserializers" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1010" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1013" componentGuid="f9734c6f-4643-4c8c-846f-09600db44b54">
+        <componentFiles fileId="ID_c7979ebc_74b5_41fb_968b_ec4604e88a28" srcName="Encryption.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="Encryption.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="Encryption" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1012" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1019" componentGuid="6b1f3e6b-a3af-40d0-adbb-2ac917d691f7">
+        <componentFiles fileId="ID_19e7a486_1b05_4693_b157_9a26e059ef4c" srcName="ICSharpCode.SharpZipLib.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="ICSharpCode.SharpZipLib.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="ICSharpCode.SharpZipLib" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1018" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1021" componentGuid="b4708634-39bc-4bd8-86a6-c626dddd3e84">
+        <componentFiles fileId="ID_e7dc0831_7fd9_4d86_99ac_34a27c79d178" srcName="Interop.VisualFoxpro.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="Interop.VisualFoxpro.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="Interop.VisualFoxpro" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1020" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1023" componentGuid="2c5c7887-6151-4afd-b00a-610fa86a6c09">
+        <componentFiles fileId="ID_dfb866a9_9693_43b5_bfc0_c12ada4f912a" srcName="itextsharp.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="itextsharp.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="itextsharp" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1022" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1025" componentGuid="fb314b7e-b255-4060-beab-2e83eac640ae">
+        <componentFiles fileId="ID_de02b6b0_ebb4_43a0_ab5b_f58b05fcc711" srcName="Log4Fox.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="Log4Fox.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="Log4Fox" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1024" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1027" componentGuid="5e012ac7-0438-457b-8b52-ff6cae98bc53">
+        <componentFiles fileId="ID_7c2b7173_8e56_4a76_94bc_fcb9d237fd7d" srcName="log4net.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="log4net.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="log4net" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1026" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1029" componentGuid="9303ac7a-146e-49a0-b8c6-9fa7b5297f70">
+        <componentFiles fileId="ID_3228bf79_dacc_4671_b73e_9557ee074137" srcName="LumiSoft.Net.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="LumiSoft.Net.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="LumiSoft.Net" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1028" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1031" componentGuid="af304f08-4dab-4f75-94d5-407152b1fea1">
+        <componentFiles fileId="ID_8dd5e26d_d40c_42a6_821b_93861989a3a2" srcName="msvcp71.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="msvcp71.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="msvcp71" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1030" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1033" componentGuid="ed3606cb-a9eb-40f2-aea3-18e5b49bc80e">
+        <componentFiles fileId="ID_604b0197_01d1_4c33_98a3_8b55b7fcc48b" srcName="msvcr71.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="msvcr71.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="msvcr71" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1032" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1035" componentGuid="61c771cb-4b58-44ff-a71e-af155a4693dd">
+        <componentFiles fileId="ID_fe2e9692_a086_4ceb_963b_32abd88e457c" srcName="NETExtenderDLL.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="NETExtenderDLL.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="NETExtenderDLL" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1034" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1037" componentGuid="b2596d46-64b8-419d-96e9-0445d6b14b26">
+        <componentFiles fileId="ID_de2ff275_f477_48eb_9c07_e8aefefe4188" srcName="NetExtenderSupport.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="NetExtenderSupport.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="NetExtenderSupport" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1036" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1039" componentGuid="2ec0c651-1de5-4f3c-b478-920c8bd497cd">
+        <componentFiles fileId="ID_c9a79404_2374_4852_a35d_5d0ddce484b3" srcName="PdfSharp-WPF.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="PdfSharp-WPF.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="PdfSharp-WPF" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1038" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1041" componentGuid="3c244618-4c30-447d-9cb4-94811da91ec3">
+        <componentFiles fileId="ID_bbfb8e3f_585e_4291_a90f_a01546bb2f45" srcName="proQuest.airQuest.AirPlusXml.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.AirPlusXml.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.AirPlusXml" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1040" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1043" componentGuid="f026b3ef-e69a-4ce2-bd0a-588d5975082e">
+        <componentFiles fileId="ID_02e248b1_0e67_4055_b9ca_8c365f94e53f" srcName="proQuest.airQuest.AmaWs4.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.AmaWs4.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.AmaWs4" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1042" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1045" componentGuid="0f16af5c-0e78-4e6e-bb99-b78e13af8d61">
+        <componentFiles fileId="ID_8a764122_e8c7_4bd7_bb02_fb4ebd67a1ae" srcName="proQuest.airQuest.AmexvPay.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.AmexvPay.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.AmexvPay" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1044" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1047" componentGuid="79d31e69-e2b1-4d53-af46-0aa0ea15cb04">
+        <componentFiles fileId="ID_5ba40352_d0c8_4d4d_8b9e_9dbd4f7c6ac1" srcName="proQuest.airQuest.DatamixxLookup.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.DatamixxLookup.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.DatamixxLookup" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1046" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1049" componentGuid="fa0aea23-6084-46f9-a08a-87069380b02c">
+        <componentFiles fileId="ID_e4104c8a_f11f_44a1_92da_545ab59dad22" srcName="proQuest.airQuest.DatamixxLookup.XmlSerializers.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.DatamixxLookup.XmlSerializers.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.DatamixxLookup.XmlSerializers" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1048" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1051" componentGuid="6a3978bd-2c28-4199-a9cc-d992ac31812a">
+        <componentFiles fileId="ID_93e2e00f_1f1c_4fe4_8ce9_ab313e2a0231" srcName="proQuest.airQuest.eNettVAN.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.eNettVAN.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.eNettVAN" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1050" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1053" componentGuid="59cd50c8-fa0c-49c6-b26c-76740e0e7eaf">
+        <componentFiles fileId="ID_440c97f2_4902_49cf_b1e6_57b68c00410b" srcName="proQuest.airQuest.FarelogixWS.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.FarelogixWS.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.FarelogixWS" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1052" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1055" componentGuid="ba2468e1-8e17-4ea0-93f5-dc26b1fa5e98">
+        <componentFiles fileId="ID_e44fe432_288b_4e38_bd42_067877df927f" srcName="proQuest.airQuest.HttpTls12.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.HttpTls12.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.HttpTls12" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1054" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1057" componentGuid="0092431a-810f-4000-bd88-cda75bdfbff9">
+        <componentFiles fileId="ID_beeb60c7_f68e_4254_b383_4ef882c1b918" srcName="proQuest.airQuest.ImapClient.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.ImapClient.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.ImapClient" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1056" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1059" componentGuid="88dd89bd-79e9-495f-8f54-a9da6cce1daf">
+        <componentFiles fileId="ID_84b995ae_df4d_462c_b30d_cf0ee2f635a1" srcName="proQuest.airQuest.LocalEmailClient.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.LocalEmailClient.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.LocalEmailClient" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1058" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1061" componentGuid="316be2b6-1e93-4b75-b976-53f45ac01bad">
+        <componentFiles fileId="ID_8242b880_fc98_47fb_bd4f_b1525ae5ce33" srcName="proQuest.airQuest.Pdf2Text.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.Pdf2Text.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.Pdf2Text" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1060" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1063" componentGuid="895d4b62-d316-4094-930c-70ef47cc2dac">
+        <componentFiles fileId="ID_3cf77ead_6f09_4edf_884d_de648b493fa5" srcName="proQuest.airQuest.TICKeos.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.TICKeos.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.TICKeos" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1062" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1065" componentGuid="39ff4fb5-1b2b-4f16-b380-dfe81e5cc490">
+        <componentFiles fileId="ID_ee76086d_e2c6_42fc_a5a9_e337259d4cb9" srcName="proQuest.airQuest.TICKeos.XmlSerializers.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.TICKeos.XmlSerializers.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.TICKeos.XmlSerializers" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1064" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1067" componentGuid="fc4de97f-8a55-4c86-a6e2-f0b50c83f5dd">
+        <componentFiles fileId="ID_1546f675_da0f_43b4_a7b6_3a0a97497ba4" srcName="proQuest.airQuest.uAPI.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.uAPI.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.uAPI" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1066" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1069" componentGuid="38aeedb5-53bd-43d7-873a-4c1c5f929224">
+        <componentFiles fileId="ID_c5c6bb60_8d2f_403e_8a1d_3a20f86a086b" srcName="proQuest.airQuest.uAPI.XmlSerializers.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.uAPI.XmlSerializers.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.uAPI.XmlSerializers" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1068" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1071" componentGuid="1f28b7b7-3ac8-46e4-9e9a-fb95807f592d">
+        <componentFiles fileId="ID_a0fa34bc_83c3_4ecc_b4cb_ea73182a9090" srcName="proQuest.airQuest.WmiPerformance.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="proQuest.airQuest.WmiPerformance.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="proQuest.airQuest.WmiPerformance" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1070" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1073" componentGuid="c36e39e0-f319-4a6a-8106-996eeb22ccfc">
+        <componentFiles fileId="ID_42d3d51e_0002_4c85_a218_ffd9fd58870a" srcName="txmsCrypto.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="txmsCrypto.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="true" typelibGuid="A3691845-E9FA-4A3C-A08B-3360126307FB" menuName="txmsCrypto" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1072" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1075" componentGuid="829c8c4a-bc61-490d-b7d8-de45cbff220d">
+        <componentFiles fileId="ID_a2ca87ae_6cc3_4cab_8650_4cbeb2209dd1" srcName="xxdotnetclient.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="xxdotnetclient.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="xxdotnetclient" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1074" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1077" componentGuid="9f3aefaf-c78f-4fd9-a8d5-9b8b3e27b18f">
+        <componentFiles fileId="ID_3539a880_3f05_4ffc_afc7_b3c09ee09c6b" srcName="zlib.net.dll" srcDirectory="S:\Tulip\Installer\proquestDLL\DLL" dstName="zlib.net.dll" dstPath="[SystemFolder]" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="zlib.net" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1076" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <defaultInstallMode>1</defaultInstallMode>
+    </childFeatures>
+    <defaultInstallMode>3</defaultInstallMode>
+  </projectFeatures>
+  <projectMergeModules excludeFromBuild="false" srcPath=".\3rdparty\Microsoft_VC120_CRT_x86.msm">
+    <ModuleProperties />
+    <ModuleId>Microsoft_VC120_CRT_x86</ModuleId>
+    <ModuleLanguage>0</ModuleLanguage>
+    <ModuleVersion>12.0</ModuleVersion>
+    <MouleDescription>Installation Database</MouleDescription>
+    <ModuleComments>Copyright (C) Microsoft Corporation, All rights reserved.</ModuleComments>
+    <ModuleManufacturer>Microsoft Corporation</ModuleManufacturer>
+    <ModulePlatforms>Intel;0</ModulePlatforms>
+  </projectMergeModules>
+  <projectMergeModules excludeFromBuild="false" srcPath=".\3rdparty\Microsoft_VC80_CRT_x86.msm">
+    <ModuleProperties />
+    <ModuleId>CRT</ModuleId>
+    <ModuleLanguage>0</ModuleLanguage>
+    <ModuleVersion>8.0.50727.6195</ModuleVersion>
+    <MouleDescription>merge module</MouleDescription>
+    <ModuleComments>Copyright (C) Microsoft Corporation, All rights reserved.</ModuleComments>
+    <ModuleManufacturer>Microsoft Corporation</ModuleManufacturer>
+    <ModulePlatforms>;0</ModulePlatforms>
+  </projectMergeModules>
+  <projectWixModules Id="ID3445" Compile="Auto" Name="Include All generated Components" Path=".\DLL\IncludeAll-Generated.wxs" ReferenceType="Feature" ReferenceId="WIXInclude" />
+  <projectWixModules Id="ID3446" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.eNettVAN.dll.reg.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3447" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.eNettVAN.dll.tlb.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3448" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.eNettVAN.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3449" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.FarelogixWS.dll.reg.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3450" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.FarelogixWS.dll.tlb.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3451" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.FarelogixWS.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3452" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.HttpTls12.dll.reg.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3453" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.HttpTls12.dll.tlb.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3454" Compile="Auto" Name="" Path=".\DLL\proQuest.airQuest.HttpTls12.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3455" Compile="Auto" Name="" Path=".\DLL\xxdotnetclient.dll.tlb.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3456" Compile="Auto" Name="" Path=".\DLL\xxdotnetclient.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3457" Compile="Auto" Name="" Path=".\DLL\zlib.net.dll.reg.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3458" Compile="Auto" Name="" Path=".\DLL\zlib.net.dll.tlb.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3459" Compile="Auto" Name="" Path=".\DLL\zlib.net.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectWixModules Id="ID3631" Compile="Auto" Name="" Path=".\DLL\ChilkatAx-9.5.0-win32.dll.wxs" ReferenceType="None" ReferenceId="" />
+  <projectInstallForCurrentOrAllUsers>1</projectInstallForCurrentOrAllUsers>
+  <License>
+    <System>true</System>
+    <Name>Common Public License Version 1.0</Name>
+  </License>
+  <projectProperties LicencePath="" TopBanner="" BigBanner="" ExclamationIcon="" InfoIcon="" NewIcon="" UpIcon="" VS2003Integration="VS2003_INTEGRATION" VS2005Integration="VS2005_INTEGRATION" UseRelativePaths="true" LaunchAppText="" UseWixUI_ErrorProgressText="true" UseWixUI="true" CreateUninstallShortcut="true" Codepage="1252" ProductLanguage="1033" AlwaysMajorUpgrade="true" SupressValidation="false" Compress="true" BuildTarget="true" PublisherUrl="" SupportContact="" SupportUrl="" SupportPhone="" ReadMeFile="" UpdateUrl="" Comments="NOTE: Use WarSetup from our repro! See README.MD" Icon="" EmbedCab="true" MaxCabSize="0" CabCompressionLevel="mszip" InstallerVersion="450">
+    <UiCultures Name="en-US" Enabled="true" />
+    <UiCultures Name="de-de" Enabled="false" />
+    <UiCultures Name="es-es" Enabled="false" />
+    <UiCultures Name="nl-nl" Enabled="false" />
+  </projectProperties>
+</WarSetup-Project>

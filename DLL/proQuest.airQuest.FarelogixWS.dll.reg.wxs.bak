@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <Directory Id="TARGETDIR">
+            <Component Id="cmp550A3F2C70A10659F0B81847C1031C84" Guid="{F1E17534-18A3-4215-8CDD-8661828C57B9}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.FarelogixWS.FlxWS" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp55BFB96750ECBEBE0068E52282359766" Guid="{3FC8937E-7702-4400-8006-99E7F5500182}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.FarelogixWS.FlxWS\CLSID" Root="HKCR">
+                    <RegistryValue Value="{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDC928DCE0DE4FDC74D9FA5E834933E80" Guid="{C613B651-9E6D-4901-88B2-9AF4CD510634}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2127EFCAB0C7BB21BD728E90969BC0B7" Guid="{AC0EF8BA-A4FF-4AD0-A98D-0F4A125D9488}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.FarelogixWS.FlxWS" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB4DD5062CF66071D62ED8B7DC21F04FA" Guid="{F7C8EB8C-03B7-41E5-9EE8-E61E67B5D62C}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\InprocServer32\1.0.2.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.FarelogixWS.FlxWS" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2A80BDB299FBC4FACA633B44DCC7A672" Guid="{41350F16-F834-4377-BDF6-581FCA3B22B8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8ACB4D283ACAE270D4DE45277E2CF61C" Guid="{5D39DD96-96FE-449A-9D1D-F89635D556A2}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{F6BE54F1-0DD5-3E2A-9BDE-598EA5E050ED}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp3C77FEC67634703918B3C3374570ED3E" Guid="{38F1390D-85C2-45C3-B362-9380F88E4899}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB0965A4F81781F9976E47EA432E0A884" Guid="{071AC29A-BA00-40CF-B686-FC5751E1766E}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.FarelogixWS.FlxWS+Logger\CLSID" Root="HKCR">
+                    <RegistryValue Value="{E85C4210-801B-3E6A-B528-2314F3AA35C5}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8A266685638605129DBF5BE7C2C6BBE4" Guid="{AEDCC940-79BB-4EFC-B0A4-2558D9D301B5}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2DCD18482B737EE24D7AC4BA614474FE" Guid="{B8744F67-8A67-4C0B-8804-4C5E16A4DAE8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp7A26D801FD140B117359B1C9B933A3D7" Guid="{B42B3263-315F-4FBD-BA9C-41B88BE19D82}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\InprocServer32\1.0.2.0" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.FarelogixWS, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE3FE86F14E9100FB2ECA17875D8550C8" Guid="{1992DACF-E743-4034-B0CB-ECCB0F348FCB}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.FarelogixWS.FlxWS+Logger" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp727FFA974B5BE9B0314BBC15EA98F8D8" Guid="{1EB541BE-B4B5-4BC5-B49E-94CF62F10457}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{E85C4210-801B-3E6A-B528-2314F3AA35C5}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+        </Directory>
+    </Fragment>
+</Wix>

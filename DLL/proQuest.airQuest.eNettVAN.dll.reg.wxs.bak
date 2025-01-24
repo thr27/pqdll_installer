@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <ComponentGroup Id="proquestDLLWiX">
+            <Component Id="cmp545CE43E73348DA23240F9C4C28B8BC2" Directory="TARGETDIR" Guid="{2E66E815-8AB2-46F0-8B2B-4BD34D4BC6D6}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.eNettApi" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp51652353025EE680ADBA2D504FA9A61B" Directory="TARGETDIR" Guid="{13D036A2-0531-4160-805A-59FB302E376C}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.eNettApi\CLSID" Root="HKCR">
+                    <RegistryValue Value="{E102BC8A-4908-3423-80F4-EBE3FF564F44}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA13931BC91E578B8D2AE5A625B0B75D7" Directory="TARGETDIR" Guid="{BC49453C-D22A-487E-83BA-330507CC4E45}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD8FFA577310196994598A2EF08E4DAE0" Directory="TARGETDIR" Guid="{2B539D38-2C73-4468-8089-66FE66E6166C}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpEE8986241695BB1233582FD062225623" Directory="TARGETDIR" Guid="{47CF629B-4BDE-46B6-9503-E710109F96D4}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp94A3260CD4D6414CDF2688AC2B77567B" Directory="TARGETDIR" Guid="{C6B3D7F0-4EFB-411E-89B9-39324311AF49}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpC5F65AB25742DAD2E7AF7D0D2EC48B85" Directory="TARGETDIR" Guid="{B4CF6107-DDC4-4333-8E5A-890B5143DB8F}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp8E66B25457339002A7F0F1FCC799633F" Directory="TARGETDIR" Guid="{E46AA9CB-64E6-45D7-A4ED-183C0772BD29}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.RequestPara" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp28450FF17474935C390E9D5A828AEA9E" Directory="TARGETDIR" Guid="{10732832-CFA6-4A18-9D3A-AC8082E37712}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.RequestPara\CLSID" Root="HKCR">
+                    <RegistryValue Value="{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp65B9C42CC392B92C65F5F7D62AD91BC6" Directory="TARGETDIR" Guid="{DAFC358A-5456-42A1-B9E5-96FD190F7E67}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpCB08921F56E73937E0B70BE008BF67F4" Directory="TARGETDIR" Guid="{6F9F27E5-C0E4-4285-8C95-E6EFA9284AEE}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp4761265E921792B112A40A3D2AE763B8" Directory="TARGETDIR" Guid="{795B03F1-1605-4300-829C-59A515C04429}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp14068DE9C0A6DD2977A35EBB3B6FF1E3" Directory="TARGETDIR" Guid="{F95A59EB-EE3F-40FD-8720-DE4C12EF3DA6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD2B980C02C326A10CB2C6924607101C0" Directory="TARGETDIR" Guid="{E32B677C-372F-428F-9D23-008D43CC6F9B}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp29DA3BE6E6334474D1866C76265A2F82" Directory="TARGETDIR" Guid="{FAA52138-8023-41CE-9B8C-A8FFC856C3BA}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp1F087AB92D16C6BACDEDCAC86BAC1D47" Directory="TARGETDIR" Guid="{E4E1BFF9-E27D-4ACF-A246-C8A4923A7659}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest\CLSID" Root="HKCR">
+                    <RegistryValue Value="{67E5898D-1F5D-3BA9-8828-13A5094A54C4}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2CD2598699F21935DC69787F9A8C674E" Directory="TARGETDIR" Guid="{584845BE-BD1B-4B08-B934-243ED6786F17}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp251EEF798C6E6E18708DC1C1A109D0C6" Directory="TARGETDIR" Guid="{E4C92B6D-4EB0-4DE5-A4A4-85CA7A3F11BC}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpC7C171BC9921F3A1BE4F3B49B28E2998" Directory="TARGETDIR" Guid="{63C28310-322C-444D-8EE6-8570D235ADF8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp6A3B500D4C4DAAEBBC643B0461FA64AD" Directory="TARGETDIR" Guid="{643A5694-E8A9-4E5A-A1E3-E630A353C4C2}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE686696676ADC071AF6B407F1E2A8475" Directory="TARGETDIR" Guid="{D86DFE75-7937-4164-911D-80F601A39028}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpDCAE3A9295A286C382828F373B04C455" Directory="TARGETDIR" Guid="{3C21E707-CE46-4903-9914-45E845BB4ABD}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp823EDD9C2DA7C310FDEF09A0F2126EB2" Directory="TARGETDIR" Guid="{605D060C-8B54-43B6-9B6B-2BDB976779BB}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection\CLSID" Root="HKCR">
+                    <RegistryValue Value="{4BE965F6-846D-32A4-B019-2A2DB576159D}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp7EAAD9D75BBD5DFE8CD9A3A06EE44ECA" Directory="TARGETDIR" Guid="{B4CDA8FB-59B0-47A9-A6B7-07E70EBC49EA}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpEC4544880FED34C3425FD778016B70AA" Directory="TARGETDIR" Guid="{5F1A5F5E-61B3-4CF6-A9FD-1610DDFA0AC8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp7FFDCCBD687F15A97C68350C94AE7150" Directory="TARGETDIR" Guid="{70981491-F496-4FD4-875C-167098514E57}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpFE4D55686C1041D818544428465C93D6" Directory="TARGETDIR" Guid="{F51E069D-7950-4400-A657-D03F571B16E6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpAA3F071B7A2CB12A9599F19E35104429" Directory="TARGETDIR" Guid="{0BB5F5FF-6EE7-45A9-AF10-5BBD12D04E57}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp4906BCDBABADA5629D8FABFEAC501E53" Directory="TARGETDIR" Guid="{94D55483-C169-49BB-85D6-D22D37F512A1}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDF3832F0A4A250E4C762299DF4F59519" Directory="TARGETDIR" Guid="{63D5FFD8-D97B-4591-A5A3-602E4C433304}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference\CLSID" Root="HKCR">
+                    <RegistryValue Value="{01965727-CB67-398E-B53B-A003AE5278C2}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp1EA45E7A0178ECAE44C2010569C04A70" Directory="TARGETDIR" Guid="{23085C8C-E4C0-46AC-86D1-55C882523963}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpAE81BBA778776FE7F656E612AD7A6826" Directory="TARGETDIR" Guid="{6E3B5B34-6EBF-4C7F-BDC2-35B63545007A}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp9C41623EB2B7DF497183346173267E57" Directory="TARGETDIR" Guid="{FA4F1F4F-58A7-4451-8CB4-2B29694FB8BD}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD4DFD57B7C33E8386E3631E7CC2C58D9" Directory="TARGETDIR" Guid="{76087D57-7225-4CA1-8FD3-FAD144D88165}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp698EE4917E9C48B7F3090199CF668C38" Directory="TARGETDIR" Guid="{897798AA-6A20-48F2-BFAE-CB5A44E85ECA}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpAECCC83568EA946193474899763A8B32" Directory="TARGETDIR" Guid="{F2059539-BE90-4D32-91D9-DF6C0B8B12BD}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp18C659CF4CA9B882BC6FFA79B4C890B1" Directory="TARGETDIR" Guid="{0BD5FCFE-E420-4D82-A107-6273E38C455F}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse\CLSID" Root="HKCR">
+                    <RegistryValue Value="{0D8CBE99-DD9C-3369-8979-81383926D96E}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp537107653FC9AB9675A5CE669D7D15DD" Directory="TARGETDIR" Guid="{4AAAC3E2-2646-4B4C-8F5F-88812BFEDCA6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5259FFA01F0E15935F3121E93E536748" Directory="TARGETDIR" Guid="{8AF9A385-46B6-4681-90F7-EA2FCCA1B82B}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpCF8147BAED097653C438FD298BBEB0BE" Directory="TARGETDIR" Guid="{F5B18A63-95F4-40B6-B8CC-5F9EF9D3C2C3}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp74E663FCADF6BFF39C784CB2A097BC7A" Directory="TARGETDIR" Guid="{9D92ACB1-3AE5-43FA-B7C2-7228C4E810D0}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp54637DC85AFBD9B28F5E51AEBBAD674B" Directory="TARGETDIR" Guid="{B403648B-8452-4888-933D-52F7F7FB947F}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp3B196F1B4753E02D71A5F86137EB32CD" Directory="TARGETDIR" Guid="{E77D7CA0-B31C-485D-A724-2330A985C48B}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpCE31C6BD3DEB1EEA8BF581381E458F5D" Directory="TARGETDIR" Guid="{C9737E35-81BE-45DA-87A3-EEB8570579FA}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest\CLSID" Root="HKCR">
+                    <RegistryValue Value="{F219CC03-4329-3E86-9E2C-E329D07F632F}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE8195BF6F93E75453FA29A0776E64EA4" Directory="TARGETDIR" Guid="{C2382D64-DE31-440E-9E22-420A1F0E4281}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2F8543DC16185F5AF7761E9950A5BE38" Directory="TARGETDIR" Guid="{32011B5D-FA02-45B2-A51E-89AC10598C93}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp68B41245381DBD7EF79357B0B7F62486" Directory="TARGETDIR" Guid="{B52F72F4-7D71-4D92-8D7B-DBB26C7197C0}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp911C62FC56AC82B02D34E6B02D04BE39" Directory="TARGETDIR" Guid="{41410289-37E0-409F-819A-4E80A7327B74}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB92403BB0283FD2F373B663E4EDF0332" Directory="TARGETDIR" Guid="{1D60188A-CEBB-4427-B889-094E8396577E}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp1A2DEB54B50A56021E4625690587416F" Directory="TARGETDIR" Guid="{5220627A-55D5-4F25-9124-1C08404E491B}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp30C351C8660B12AFE6E2A2CBFA24E22F" Directory="TARGETDIR" Guid="{C253C280-B72B-4BD6-B856-8681E4F2B86D}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse\CLSID" Root="HKCR">
+                    <RegistryValue Value="{00AB6594-84A4-3B63-BA5D-60655E340B73}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA9897856EF5B7DBA963F031D27058684" Directory="TARGETDIR" Guid="{03153C89-6363-42C0-8DE7-79F9EEDDD1D9}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp1541EA5FA47651938473A3BE059243FA" Directory="TARGETDIR" Guid="{E5CF0267-C6C1-492E-B44C-C1E02EDE9A0F}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp64EE9B0FFB2EBE66D3A0F477FD931736" Directory="TARGETDIR" Guid="{188CF97B-8FF9-4D3B-9494-2DBF61895DA6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5C24C2FB3476140D1CA1F0A0B674EBE3" Directory="TARGETDIR" Guid="{8BD3F0D8-6C07-4AFC-82DF-641FA65A3D30}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp3DAB4C84798B4B4471CA4CEDCC979BB2" Directory="TARGETDIR" Guid="{3BFC63E2-C221-435F-997A-E3930A1B0175}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp2ECC4861AF8B6201201D9DF9D293D09A" Directory="TARGETDIR" Guid="{33950691-93A9-4673-B621-2D17755283B7}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE2BC1F23B1AE36B4670D94F267C9EB28" Directory="TARGETDIR" Guid="{237198CB-8F77-4C39-B5DD-A78F26FAD70E}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest\CLSID" Root="HKCR">
+                    <RegistryValue Value="{52E15780-2022-352F-B35E-D464F1004162}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpABBDB5DDC2279D08098931680566C37A" Directory="TARGETDIR" Guid="{0D1F2AA5-CBC1-47C4-BC04-4E51784C183D}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpC86D9F49AF2CA114609EACBFDCD21488" Directory="TARGETDIR" Guid="{A11CF20F-6D79-45F0-B370-6C77F1D19380}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8AD220EBAE507674D0B4F247A0F26441" Directory="TARGETDIR" Guid="{A96BA843-CAB2-4607-AD85-48D4E61B7D68}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5D8DC9D8243F7A6A1F823988A7EA1C2D" Directory="TARGETDIR" Guid="{01555D07-E919-4778-B69E-078D9E57A226}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp3E97D6E9BF06A680DC1A30904DEEDC6D" Directory="TARGETDIR" Guid="{BEE766C8-BFC7-466F-875B-F6BE852AFA12}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpEDA347AC09DB7CA4FA2BBA87081330D8" Directory="TARGETDIR" Guid="{68534F9F-74D4-4DE3-A0BA-854C45B47AC0}" KeyPath="yes">
+                <RegistryKey Key="Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelReasonType" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8F2CC1FB5AA61D1169B1625634BA1BB2" Directory="TARGETDIR" Guid="{FE96815D-CF20-4B8E-8801-30721C7C909D}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDEEF4BF9546FB00BABB146475D711505" Directory="TARGETDIR" Guid="{8D40A90A-5D74-418B-AEDF-129A672FECE9}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse\CLSID" Root="HKCR">
+                    <RegistryValue Value="{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB0E19BCFCC7ABAF4456436C2EED7CDDF" Directory="TARGETDIR" Guid="{5792BE0B-2A76-45FC-96AE-239AB49E78D2}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp461744E37C78F6B5A16839AF7358653E" Directory="TARGETDIR" Guid="{2C8179E3-C89D-4ED9-A30C-0385C653866C}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp86DDEA60B91437D5A0FD1CD94C7A855C" Directory="TARGETDIR" Guid="{FD209DEC-D331-4472-B98E-109E2F0242E8}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2DF07593269D57989B2E397E6E06CEDD" Directory="TARGETDIR" Guid="{BA2A3835-C874-463F-A48A-B592926603EC}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD5B11594F35E005E5A90C38EDC2ED461" Directory="TARGETDIR" Guid="{B7659ACA-EFA0-46F7-A8F0-34D9B42BBF5E}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp1237486CF6958962124FB763D5ECD183" Directory="TARGETDIR" Guid="{EBB10456-6563-4C8A-AF75-8E84F26EF840}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDD1BB8F3FC6BA6F67CC16566FE3B7DFA" Directory="TARGETDIR" Guid="{C713533C-335D-41C7-9C5F-B4928B549135}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest\CLSID" Root="HKCR">
+                    <RegistryValue Value="{53E44AD8-B64B-330B-8E52-68F0B3B009E9}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp33EEE0F6FC5F046C85FB2D2DC40B2D2E" Directory="TARGETDIR" Guid="{C0C7EE73-69D5-4678-9440-E8F42DC7724A}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp21F204414CF96293B00C9E2C61828D89" Directory="TARGETDIR" Guid="{F69E4937-5756-427A-AAAE-10CB65B03169}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD1E6E7E7D31250A2E4DBBCA433CB4E9A" Directory="TARGETDIR" Guid="{7475A9E6-FAE2-4BB4-A917-900565C73D3A}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpBCCF972D9671A81BA510DB3FB530B684" Directory="TARGETDIR" Guid="{FE5833FA-3E00-4222-BA32-88149F866882}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA023AE5E40A6534143FCEF65E43A17DD" Directory="TARGETDIR" Guid="{AA377044-9C7A-483A-8F9B-A834D745C400}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpB7D14DD8B2C3EB4F394B867CF3950C4C" Directory="TARGETDIR" Guid="{C6BC5B93-5F91-4071-BD4F-F3F2D8967C81}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA0225F2A7C768B1DAF5B4C2ED70FA430" Directory="TARGETDIR" Guid="{13054EF7-D092-4087-A1FA-6A6DAE597586}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse\CLSID" Root="HKCR">
+                    <RegistryValue Value="{2800585B-ED2D-3B11-A1A2-46D372D62723}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp04125938DC0716DF0271992AF3B16952" Directory="TARGETDIR" Guid="{2E857C1D-A12D-4895-A326-299346FCEC27}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp855A76C3E4C81D7FD77E3A2DACFC15A5" Directory="TARGETDIR" Guid="{2F157460-0D61-4674-823F-A15995B275B6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5B825C1BD06AF22B97748098E60AFBA9" Directory="TARGETDIR" Guid="{7024B7F4-123F-41F8-A76A-3D618B019130}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpD3EC10EDF11FF03C2C4D2D7E02817C41" Directory="TARGETDIR" Guid="{52F58103-1F5B-485B-A67B-C1297CA6AC67}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5DCD02ED3B6CE2F088E72BBE0D0DBB26" Directory="TARGETDIR" Guid="{7C5978D2-CBD3-4C8D-AD94-D6A8C41F1DF3}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpFB40ED000A5E21BD4EFF93ADD3DDDEB2" Directory="TARGETDIR" Guid="{0A13ED9C-65F1-4CE5-9148-BE2BB9F7F4CC}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp5564B3104972476EE32FD0EE9054DD13" Directory="TARGETDIR" Guid="{E7C6A7C7-45A7-4586-BA7F-AAC459DA02C1}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection\CLSID" Root="HKCR">
+                    <RegistryValue Value="{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp9100A93E4564C0E55537562ED0B0577B" Directory="TARGETDIR" Guid="{1FC5A5BC-1016-4F45-B836-7E3F80D042F7}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp30A68B867F21E37B282030B346C8533F" Directory="TARGETDIR" Guid="{698BE91D-51FC-4B46-9920-55C150C8E47E}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp41360A5DA5153A20E227A5EC5FBC0FBB" Directory="TARGETDIR" Guid="{4146ACBD-48FD-42F6-9D21-FD8C6548CCAE}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB5C95AEA5FF4B516A0616B1F8F8C66F0" Directory="TARGETDIR" Guid="{877882ED-2C50-46D5-87F8-275498845643}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp9E5478855737EAD58A27D5FCD3C52EA0" Directory="TARGETDIR" Guid="{E1DCDFE1-60EE-487A-BEDA-1D41B25DD704}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpBD5D264D0DB162BBB84E6AD1EC106CD3" Directory="TARGETDIR" Guid="{F61CB622-230A-46A7-8270-492513C48C22}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp211C69B75FE337D132F1DEE0C0A79E17" Directory="TARGETDIR" Guid="{C676A64F-6BF3-443C-ABB1-657E5D54EAF3}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection\CLSID" Root="HKCR">
+                    <RegistryValue Value="{903074B4-1977-3281-B6E8-0FC16506BE3B}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp6982826C5AD04D1A8E32D4552018AD90" Directory="TARGETDIR" Guid="{531969AA-ED18-4E77-BC6B-31DB63C30A94}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp7EB190079E927F8B77A1A458C90A7F81" Directory="TARGETDIR" Guid="{E5A4045F-D095-4C9B-92D1-EC037FF91D17}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp0F97566B7EF3F99C653C5B48747DB996" Directory="TARGETDIR" Guid="{59476ACB-D084-44FA-8D1A-A7FB3E066C6F}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2E1A87A0BB1A2C0481D4C363DBF1BF1D" Directory="TARGETDIR" Guid="{554CED16-3731-4BCC-9C80-EEC9DCE309AB}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp9E24ADFB0B142AA910177283218F979C" Directory="TARGETDIR" Guid="{F119B58C-29FD-4739-9370-727DD1D966DD}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp0EA870D8D7AEF6AEB53F5F5B5A947AF6" Directory="TARGETDIR" Guid="{BC319D82-0B7C-4689-B081-C714EED5B1F7}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp4E6DEC268C8E8C38C1761895836F5EAD" Directory="TARGETDIR" Guid="{8FE062D1-7143-4ACC-A813-26D8086E238A}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory\CLSID" Root="HKCR">
+                    <RegistryValue Value="{137757C7-B271-307A-8C4C-FBDABF6A8A1D}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp35F93A47D1D14DA6E7A020F62D9ADA34" Directory="TARGETDIR" Guid="{38AF67A4-77E2-4570-B64E-2CE39BBD75C3}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp6DBE0093A9A32CEABFC4348DF84077F0" Directory="TARGETDIR" Guid="{23ABCE4E-EEAD-4490-867F-3AE1B02FEBD1}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp4BDBEAB0CAC6D4F6EECD1659A7FEE255" Directory="TARGETDIR" Guid="{A5FB652C-254D-4D42-AD01-75B0AE87026B}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp31038FF9B51365D160C520636BBAE01E" Directory="TARGETDIR" Guid="{23001C3A-A014-4813-AF6D-CC65CD2074AB}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpC1CD682C3311A5586D5B1EDA5F6AA27B" Directory="TARGETDIR" Guid="{D5DDEAFC-9E16-4E7B-96C2-A692F3DD9C70}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp6CDC899EBAFD139E88B724CFD6D598C2" Directory="TARGETDIR" Guid="{905D90F4-7FEA-4062-A700-E97BD98EA20C}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpFEF4ECD86725DC8823F80D5D101FA39C" Directory="TARGETDIR" Guid="{77A0B28D-8103-465C-B52F-CCE0C6011779}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory\CLSID" Root="HKCR">
+                    <RegistryValue Value="{A31C2F3D-DD36-3D32-B804-6B5A5262C874}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp04DBBE679AA1D77EECD48B208B1650FA" Directory="TARGETDIR" Guid="{8E777F20-A01A-4F61-984D-26F527A9EFF1}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp1A4287F3DB972745C81CC301E37D8D40" Directory="TARGETDIR" Guid="{3C3A91E6-A252-402A-BE76-EB14E90BF6B1}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpCD2FDF246EB6EF57C57B67479862E824" Directory="TARGETDIR" Guid="{3C032AA7-9B41-4C6F-A81D-1EB828B46C95}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpBCBE7191CC9E980CC9B2BF227810D25A" Directory="TARGETDIR" Guid="{8FCC710F-ABB5-4C56-82A9-CCAAE4E9B1E2}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpE3E4A7F6509EBDC48344EC12A4E1C6C6" Directory="TARGETDIR" Guid="{33908557-8B61-4E74-8E3F-3E7D1B0C955A}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp805907232A9DD54D082B2246A2EF8335" Directory="TARGETDIR" Guid="{FDCD3E09-18AE-427A-BB8C-66544450A2A4}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp093D6E8114C439F54D0F20CB08BFF98E" Directory="TARGETDIR" Guid="{9CBA0E29-E02A-4023-BA99-B4D0D77F03F1}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest\CLSID" Root="HKCR">
+                    <RegistryValue Value="{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB70675B2C3437E186BA71D48FAC35C91" Directory="TARGETDIR" Guid="{615FECBC-9415-499D-B91E-B588A1AF3D71}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp054872422E802D2A1CA729306EACC868" Directory="TARGETDIR" Guid="{BCBA0771-04D4-414A-91C8-09571CEC18D0}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpCE64B907BC50289BEC605B96AC145286" Directory="TARGETDIR" Guid="{E7CF0A19-B1C6-4268-AF22-5A03C539B3A7}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp10903935B8B88482EBB0CB10241911B7" Directory="TARGETDIR" Guid="{BE441C1B-D6FD-4FFF-8D0E-F332A2AAC487}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp00525A3510CE9BB73EFA4C576819CC0D" Directory="TARGETDIR" Guid="{6C05A913-46AD-48F4-B01D-EE1652D41F69}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmp59D968CFE3C662120B776E9647F6315C" Directory="TARGETDIR" Guid="{8B37AB43-0F9E-479E-808E-E86628BEA032}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp169742B6362DC734BE14E06EF28E13D7" Directory="TARGETDIR" Guid="{588E67CB-1270-4B26-B700-F35182EEE9E9}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse\CLSID" Root="HKCR">
+                    <RegistryValue Value="{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp80B209862864ED423D001D344D08B465" Directory="TARGETDIR" Guid="{AEEF5132-D6A7-4C78-8831-563E9938F0A0}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpA0EFF9430E628CBD3D834F0E579BD8AE" Directory="TARGETDIR" Guid="{856251A6-6668-4D88-B279-25DFA1622160}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp796ECEF278D20EEDDAB7E3CB35C3B02F" Directory="TARGETDIR" Guid="{9398A068-100A-487C-B7C6-EED86C27E2F1}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp063211335B6A466475CD5D16883ED16F" Directory="TARGETDIR" Guid="{C4870DE1-017E-4691-AFFD-BD4D8A7AFBCD}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp0D78DBD4FD4785990B5D3C3F36EA0F16" Directory="TARGETDIR" Guid="{7C04B564-E9A4-4D72-BFDB-47DBF6DFE57C}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+            <Component Id="cmpDFB7EDB5D12BA1E1ECBC41123BA4FC40" Directory="TARGETDIR" Guid="{055227B7-575D-4FAA-A206-01DBED857A88}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB3B1613EA8CA5100FAB3456E01518D50" Directory="TARGETDIR" Guid="{21F649DF-9C5B-42E1-ACD8-38E2A0F412EC}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client\CLSID" Root="HKCR">
+                    <RegistryValue Value="{864BA566-69D8-354A-9D6D-111E2E9B7A47}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp8BB8DE3DEBB93D1E2A0259A693441AAF" Directory="TARGETDIR" Guid="{0419FEE2-2C6E-4614-8680-4776EE0C3E5D}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpDCFAF5BF1521D73BD94387B91A0316EB" Directory="TARGETDIR" Guid="{73C1191A-BBAA-4A05-8073-AEB0144C8AE6}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp2543685614811EE0D823515B8E3ED6B4" Directory="TARGETDIR" Guid="{B01D68CF-3A65-4A2C-9924-96DABF7873DB}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v4.0.30319" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpBBAC08BEAA08A02FD345304AD7697C2F" Directory="TARGETDIR" Guid="{CB4FC147-37A9-4713-8270-64E85CECA08E}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp008798A2EECC32257321BE68B41C25E3" Directory="TARGETDIR" Guid="{E0662A0B-6F39-456B-B69E-6DFCD4DCC55A}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

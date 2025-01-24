@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="proQuest.airQuest.eNettVAN.tlb">
+            <Component Id="cmp028B9746C0DAE0BD95B539C8E9499456" Directory="SystemFolder" Guid="{0AA9810B-7017-4DF4-9248-D3501610FD34}">
+                <File Id="fil980FFEE33A1318D6209A8B77A3451835" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\proQuest.airQuest.eNettVAN.dll.tlb">
+                    <TypeLib Id="{BF7CFA1A-07EB-4BEB-A4E0-1F8A7A555267}" Description="proQuest_airQuest_eNettVAN" HelpDirectory="SystemFolder" Language="0" MajorVersion="1" MinorVersion="0">
+                        <Interface Id="{0440E955-B358-3CE5-9319-8B042D5AEFA4}" Name="IvNettServiceV2" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2547EEA8-A8CB-388B-A1FC-82B0ABF30DA6}" Name="IvNettServiceV2Channel" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{317CB115-EEFD-3804-9E06-8A41F2C874B7}" Name="_GetVANRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3449349C-DEEB-3DB0-B489-A0E776903AC2}" Name="_AmendVANRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3B14F8C5-B4B1-3B0D-84C0-EA6BC443D361}" Name="_VanHistory" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{47F98D47-B4F6-3A3C-AF36-46B631F7BB48}" Name="_RequestPara" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4868B348-0C85-378D-B2DC-91432D0B8362}" Name="_FxHistory" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{686F5681-6442-3917-9FB4-426D15BDDB6F}" Name="_CancelVANResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{6C00387C-6D4F-3A98-9645-4A0571D668C0}" Name="_GetVANResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{786A6634-EE30-36CE-9148-5CDFFA43F565}" Name="_AmendVANResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{7F823AF2-374F-30DA-8571-53677D2C9F8F}" Name="_GetFxQuoteResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{8D68B845-2E3B-3E1F-B728-F5D64664403E}" Name="_CancelVANRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{A760CCDD-C6E7-3B8E-9B56-54B87B14C538}" Name="_GetFxQuoteRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{AB9B73EC-67C1-3DE0-AA96-909DA12B4FF6}" Name="_eNettApi" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B5E800AA-5D45-36B3-9611-A93D8B445B2D}" Name="_IssueVANRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{FB35E8FB-12C3-3F84-9091-63FD10CC7ACC}" Name="_IssueVANResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{FBD29B20-6B93-3AB7-B3D6-3ECD531EE209}" Name="_UserReference" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                    </TypeLib>
+                </File>
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

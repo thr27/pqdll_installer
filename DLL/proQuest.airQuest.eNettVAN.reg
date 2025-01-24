@@ -1,0 +1,500 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.eNettApi]
+@="proQuest.airQuest.eNettVAN.eNettApi"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.eNettApi\CLSID]
+@="{E102BC8A-4908-3423-80F4-EBE3FF564F44}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}]
+@="proQuest.airQuest.eNettVAN.eNettApi"
+
+[HKEY_CLASSES_ROOT\CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.eNettApi"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.eNettApi"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\ProgId]
+@="proQuest.airQuest.eNettVAN.eNettApi"
+
+[HKEY_CLASSES_ROOT\CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.RequestPara]
+@="proQuest.airQuest.eNettVAN.RequestPara"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.RequestPara\CLSID]
+@="{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}]
+@="proQuest.airQuest.eNettVAN.RequestPara"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.RequestPara"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.RequestPara"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\ProgId]
+@="proQuest.airQuest.eNettVAN.RequestPara"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest\CLSID]
+@="{67E5898D-1F5D-3BA9-8828-13A5094A54C4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection\CLSID]
+@="{4BE965F6-846D-32A4-B019-2A2DB576159D}"
+
+[HKEY_CLASSES_ROOT\CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference\CLSID]
+@="{01965727-CB67-398E-B53B-A003AE5278C2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference"
+
+[HKEY_CLASSES_ROOT\CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference"
+
+[HKEY_CLASSES_ROOT\CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse\CLSID]
+@="{0D8CBE99-DD9C-3369-8979-81383926D96E}"
+
+[HKEY_CLASSES_ROOT\CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest\CLSID]
+@="{F219CC03-4329-3E86-9E2C-E329D07F632F}"
+
+[HKEY_CLASSES_ROOT\CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse\CLSID]
+@="{00AB6594-84A4-3B63-BA5D-60655E340B73}"
+
+[HKEY_CLASSES_ROOT\CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest\CLSID]
+@="{52E15780-2022-352F-B35E-D464F1004162}"
+
+[HKEY_CLASSES_ROOT\CLSID\{52E15780-2022-352F-B35E-D464F1004162}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{52E15780-2022-352F-B35E-D464F1004162}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{52E15780-2022-352F-B35E-D464F1004162}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelReasonType"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse\CLSID]
+@="{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}"
+
+[HKEY_CLASSES_ROOT\CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest\CLSID]
+@="{53E44AD8-B64B-330B-8E52-68F0B3B009E9}"
+
+[HKEY_CLASSES_ROOT\CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse\CLSID]
+@="{2800585B-ED2D-3B11-A1A2-46D372D62723}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection\CLSID]
+@="{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}"
+
+[HKEY_CLASSES_ROOT\CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection\CLSID]
+@="{903074B4-1977-3281-B6E8-0FC16506BE3B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection"
+
+[HKEY_CLASSES_ROOT\CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory\CLSID]
+@="{137757C7-B271-307A-8C4C-FBDABF6A8A1D}"
+
+[HKEY_CLASSES_ROOT\CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory"
+
+[HKEY_CLASSES_ROOT\CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory"
+
+[HKEY_CLASSES_ROOT\CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory\CLSID]
+@="{A31C2F3D-DD36-3D32-B804-6B5A5262C874}"
+
+[HKEY_CLASSES_ROOT\CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory"
+
+[HKEY_CLASSES_ROOT\CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory"
+
+[HKEY_CLASSES_ROOT\CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest\CLSID]
+@="{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse\CLSID]
+@="{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client\CLSID]
+@="{864BA566-69D8-354A-9D6D-111E2E9B7A47}"
+
+[HKEY_CLASSES_ROOT\CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client"
+
+[HKEY_CLASSES_ROOT\CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1]
+"Class"="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client"
+"Assembly"="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\ProgId]
+@="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client"
+
+[HKEY_CLASSES_ROOT\CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

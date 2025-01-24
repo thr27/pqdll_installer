@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment Id="Include All generated Components">
+		<Feature Id="WIXInclude"
+			 Title="proquestDll Registrations"
+			 Level="1"
+			 InstallDefault="local"
+			 >
+<ComponentGroupRef Id="proQuest.airQuest.FarelogixWS.tlb" />
+<ComponentGroupRef Id="proQuest.airQuest.FarelogixWS.reg" />
+<ComponentGroupRef Id="proQuest.airQuest.FarelogixWS" />
+<ComponentGroupRef Id="xxdotnetclient.tlb" />
+<ComponentGroupRef Id="xxdotnetclient" />
+<ComponentGroupRef Id="zlib.net.tlb" />
+<ComponentGroupRef Id="zlib.net.reg" />
+<ComponentGroupRef Id="zlib.net" />
+<ComponentGroupRef Id="proQuest.airQuest.HttpTls12.tlb" />
+<ComponentGroupRef Id="proQuest.airQuest.HttpTls12.reg" />
+<ComponentGroupRef Id="proQuest.airQuest.HttpTls12" />
+<ComponentGroupRef Id="proQuest.airQuest.eNettVAN.tlb" />
+<ComponentGroupRef Id="proQuest.airQuest.eNettVAN.reg" />
+<ComponentGroupRef Id="proQuest.airQuest.eNettVAN" />
+<ComponentGroupRef Id="ChilkatAx-9.5.0-win32" />
+</Feature>
+</Fragment>
+</Wix>

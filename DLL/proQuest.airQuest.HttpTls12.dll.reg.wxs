@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <ComponentGroup Id="proQuest.airQuest.HttpTls12.reg">
+            <Component Id="cmp31FA1A1517CF55054B75FB0389B6ACDB" Directory="TARGETDIR" Guid="{9E288305-228D-4DD1-BFD0-CEB928DFCB47}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.HttpTls12.HttpTls12" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.HttpTls12.HttpTls12" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpF5BB88804B6501C3F0B63A4A5214953F" Directory="TARGETDIR" Guid="{F5D13E31-8F74-42D2-82AC-ADE569E377EB}" KeyPath="yes">
+                <RegistryKey Key="proQuest.airQuest.HttpTls12.HttpTls12\CLSID" Root="HKCR">
+                    <RegistryValue Value="{9D14C595-62DE-3C34-B36A-C643AF0A008B}" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp916E3A86D67B9B22327CAE9F7CDD40C7" Directory="TARGETDIR" Guid="{76533F3F-87CC-4FCC-B34D-FFCDCF6E0F1E}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.HttpTls12.HttpTls12" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp34102FF3DD9B531C76E245ABF5E0F91D" Directory="TARGETDIR" Guid="{802EF58A-0DB0-4A72-AE3A-C0950CD493EB}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\InprocServer32" Root="HKCR">
+                    <RegistryValue Value="mscoree.dll" Type="string" />
+                    <RegistryValue Name="ThreadingModel" Value="Both" Type="string" />
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.HttpTls12.HttpTls12" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.HttpTls12, Version=1.0.0.3, Culture=neutral, PublicKeyToken=bb0a53c7a5ccaa5b" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp861740B170DD8568063C70419A649BEF" Directory="TARGETDIR" Guid="{C5340C8C-3846-4E74-AB3A-DFAD47BCD0D3}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\InprocServer32\1.0.0.3" Root="HKCR">
+                    <RegistryValue Name="Class" Value="proQuest.airQuest.HttpTls12.HttpTls12" Type="string" />
+                    <RegistryValue Name="Assembly" Value="proQuest.airQuest.HttpTls12, Version=1.0.0.3, Culture=neutral, PublicKeyToken=bb0a53c7a5ccaa5b" Type="string" />
+                    <RegistryValue Name="RuntimeVersion" Value="v2.0.50727" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmp4647B0895230D71CC1A4E6CD179876D3" Directory="TARGETDIR" Guid="{9BCEC383-C10B-4A45-86AD-21EED8B6B335}" KeyPath="yes">
+                <RegistryKey Key="CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\ProgId" Root="HKCR">
+                    <RegistryValue Value="proQuest.airQuest.HttpTls12.HttpTls12" Type="string" />
+                </RegistryKey>
+            </Component>
+            <Component Id="cmpB17656AB7467D3CD3CBB481C591384DA" Directory="TARGETDIR" Guid="{1ACE3B89-997A-41EA-A66C-E5B7F9E51FF2}" KeyPath="yes">
+                <RegistryKey ForceCreateOnInstall="yes" Key="CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Root="HKCR" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

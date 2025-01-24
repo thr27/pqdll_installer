@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TARGETDIR">
+            <Directory Id="dir5B7E63C261D06EBF88AB6EC2753E0606" Name="DLL" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5B7E63C261D06EBF88AB6EC2753E0606">
+            <Component Id="cmp910340FEEFBF7CB08BB4CBFE491B5DF8" Guid="*">
+                <File Id="filAC14F6CC69E9AE874E8E840E74F53161" KeyPath="yes" Source="SourceDir\DLL\proQuest.airQuest.HttpTls12.dll.tlb">
+                    <TypeLib Id="{E2E00221-49C8-48A1-BDFC-519283531B23}" Description="proQuest_airQuest_HttpTls12" HelpDirectory="dir5B7E63C261D06EBF88AB6EC2753E0606" Language="0" MajorVersion="1" MinorVersion="0">
+                        <Interface Id="{480EEBA3-5EFC-3F1D-801B-6D83280F3C64}" Name="_HttpTls12" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                    </TypeLib>
+                </File>
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+</Wix>

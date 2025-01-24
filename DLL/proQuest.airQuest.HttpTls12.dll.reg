@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.HttpTls12.HttpTls12]
+@="proQuest.airQuest.HttpTls12.HttpTls12"
+
+[HKEY_CLASSES_ROOT\proQuest.airQuest.HttpTls12.HttpTls12\CLSID]
+@="{9D14C595-62DE-3C34-B36A-C643AF0A008B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}]
+@="proQuest.airQuest.HttpTls12.HttpTls12"
+
+[HKEY_CLASSES_ROOT\CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="proQuest.airQuest.HttpTls12.HttpTls12"
+"Assembly"="proQuest.airQuest.HttpTls12, Version=1.0.0.3, Culture=neutral, PublicKeyToken=bb0a53c7a5ccaa5b"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\InprocServer32\1.0.0.3]
+"Class"="proQuest.airQuest.HttpTls12.HttpTls12"
+"Assembly"="proQuest.airQuest.HttpTls12, Version=1.0.0.3, Culture=neutral, PublicKeyToken=bb0a53c7a5ccaa5b"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\ProgId]
+@="proQuest.airQuest.HttpTls12.HttpTls12"
+
+[HKEY_CLASSES_ROOT\CLSID\{9D14C595-62DE-3C34-B36A-C643AF0A008B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

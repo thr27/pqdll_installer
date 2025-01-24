@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="zlib.net.tlb">
+            <Component Id="cmp9431B25BC1206F95F834667872DFAFA1" Directory="SystemFolder" Guid="{AAB724AB-79BB-4631-BFC1-63AD13C507DE}">
+                <File Id="fil3D4B00535EC7E7BF7C1FB1281DB7C3A1" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\zlib.net.dll.tlb">
+                    <TypeLib Id="{1FC2DFE7-54C3-36B7-8A15-63ED4DA79EE3}" Description="ZLIB compression library" HelpDirectory="SystemFolder" Language="0" MajorVersion="1" MinorVersion="0">
+                        <Interface Id="{36E095D9-8354-356B-A6D6-AA01CDB4624A}" Name="_ZOutputStream" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{372A77EB-BD47-3BA3-86A2-19EB00ABF1F5}" Name="_ZStreamException" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{6A954C8F-3566-37FA-95F5-2B49FF7D0BD3}" Name="_ZInputStream" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{728F0173-D317-3E73-9B14-6327E1A26313}" Name="_ZStream" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B0D16210-C5A8-3821-BB5F-BE096701B483}" Name="_Deflate" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B8601FA5-4280-32BD-8FEC-FF79DA569490}" Name="_zlibConst" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{F231E161-623D-341B-A1F2-A73BEDB34E6B}" Name="_SupportClass" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                    </TypeLib>
+                </File>
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

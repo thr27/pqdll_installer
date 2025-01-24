@@ -1,0 +1,105 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\zlib.SupportClass]
+@="zlib.SupportClass"
+
+[HKEY_CLASSES_ROOT\zlib.SupportClass\CLSID]
+@="{2EC318FE-1A26-3464-A964-D9008B69FADC}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}]
+@="zlib.SupportClass"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="zlib.SupportClass"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\InprocServer32\1.0.3.0]
+"Class"="zlib.SupportClass"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\ProgId]
+@="zlib.SupportClass"
+
+[HKEY_CLASSES_ROOT\CLSID\{2EC318FE-1A26-3464-A964-D9008B69FADC}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\zlib.zlibConst]
+@="zlib.zlibConst"
+
+[HKEY_CLASSES_ROOT\zlib.zlibConst\CLSID]
+@="{A881094F-FC17-36E1-A650-8D28EB716D41}"
+
+[HKEY_CLASSES_ROOT\CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}]
+@="zlib.zlibConst"
+
+[HKEY_CLASSES_ROOT\CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="zlib.zlibConst"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\InprocServer32\1.0.3.0]
+"Class"="zlib.zlibConst"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\ProgId]
+@="zlib.zlibConst"
+
+[HKEY_CLASSES_ROOT\CLSID\{A881094F-FC17-36E1-A650-8D28EB716D41}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\zlib.ZStream]
+@="zlib.ZStream"
+
+[HKEY_CLASSES_ROOT\zlib.ZStream\CLSID]
+@="{335C2D3D-81A5-35F5-A30F-29D3274BC59E}"
+
+[HKEY_CLASSES_ROOT\CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}]
+@="zlib.ZStream"
+
+[HKEY_CLASSES_ROOT\CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="zlib.ZStream"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\InprocServer32\1.0.3.0]
+"Class"="zlib.ZStream"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\ProgId]
+@="zlib.ZStream"
+
+[HKEY_CLASSES_ROOT\CLSID\{335C2D3D-81A5-35F5-A30F-29D3274BC59E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\zlib.ZStreamException]
+@="zlib.ZStreamException"
+
+[HKEY_CLASSES_ROOT\zlib.ZStreamException\CLSID]
+@="{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}]
+@="zlib.ZStreamException"
+
+[HKEY_CLASSES_ROOT\CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="zlib.ZStreamException"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\InprocServer32\1.0.3.0]
+"Class"="zlib.ZStreamException"
+"Assembly"="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\ProgId]
+@="zlib.ZStreamException"
+
+[HKEY_CLASSES_ROOT\CLSID\{268F7238-6AE9-3A27-9F1B-FCEA83D7BDFA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

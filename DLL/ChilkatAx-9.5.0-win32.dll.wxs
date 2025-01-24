@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ChilkatAx-9.5.0-win32">
+            <Component Id="cmpFD80E2F064619BC04DB2D2F77F0C5004" Directory="SystemFolder" Guid="{E39351EE-C628-481B-B48B-161377D7AF33}">
+                <File Id="fil643288A9E24806D65588AD031CB2BB4F" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\ChilkatAx-9.5.0-win32.dll">
+                    <TypeLib Id="{004CB902-F437-4D01-BD85-9E18836DA5C2}" Description="Chilkat ActiveX v9.5.0" HelpDirectory="SystemFolder" Language="0" MajorVersion="1" MinorVersion="0">
+                        <AppId Description="ChilkatAx" Id="{77317069-C4A6-4489-BEB9-757AA9525B31}">
+                            <Class Id="{00E685A8-7AE9-4DC5-8C78-54C03A8646FC}" Context="InprocServer32" Description="CertStore v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.CertStore.1" Description="CertStore v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.CertStore" Description="CertStore v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{01AFB62C-BE3C-4706-B77E-CB20DEDA1D4D}" Context="InprocServer32" Description="Bounce v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Bounce.1" Description="Bounce v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Bounce" Description="Bounce v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{0481098A-742F-4E3C-BBF5-B1D94EC62CE0}" Context="InprocServer32" Description="AuthAws v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthAws.1" Description="AuthAws v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthAws" Description="AuthAws v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{06B36116-235B-4AB9-987D-3B4C7E689247}" Context="InprocServer32" Description="SshKey v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SshKey.1" Description="SshKey v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SshKey" Description="SshKey v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{0B30402C-CDB2-45D2-B7BC-7C1F78C72C1C}" Context="InprocServer32" Description="CkDateTime v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.CkDateTime.1" Description="CkDateTime v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.CkDateTime" Description="CkDateTime v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{0B7700DB-79D8-40FB-95B9-03FCC9646439}" Context="InprocServer32" Description="JavaKeyStore v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.JavaKeyStore.1" Description="JavaKeyStore v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.JavaKeyStore" Description="JavaKeyStore v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{0D35E491-3CD9-470D-9373-D1B8BFC7A298}" Context="InprocServer32" Description="Pem v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Pem.1" Description="Pem v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Pem" Description="Pem v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{10F9AFBB-94CF-4556-A066-DD457D3254CF}" Context="InprocServer32" Description="MailMan v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.MailMan.1" Description="MailMan v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.MailMan" Description="MailMan v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{13D60A54-46AE-4B1A-86F3-652A79EA88C6}" Context="InprocServer32" Description="Mime v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Mime.1" Description="Mime v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Mime" Description="Mime v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{188354F0-DC78-49C2-8390-5FCA2D6B3876}" Context="InprocServer32" Description="Mht v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Mht.1" Description="Mht v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Mht" Description="Mht v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{1AF44DC7-C896-46BA-B45B-C168FA7612A6}" Context="InprocServer32" Description="Crypt2 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Crypt2.1" Description="Crypt2 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Crypt2" Description="Crypt2 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{1CE47E56-B8E4-4964-83E2-D14BEE0AED03}" Context="InprocServer32" Description="EdDSA v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.EdDSA.1" Description="EdDSA v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.EdDSA" Description="EdDSA v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{1D304D4B-3E7F-475C-800E-16177166E43A}" Context="InprocServer32" Description="DtObj v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.DtObj.1" Description="DtObj v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.DtObj" Description="DtObj v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{28309D42-1299-4797-AED4-64FD33B47923}" Context="InprocServer32" Description="Rsa v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Rsa.1" Description="Rsa v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Rsa" Description="Rsa v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{2935F301-12A9-47A9-97C4-8B7879124EF1}" Context="InprocServer32" Description="Asn v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Asn.1" Description="Asn v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Asn" Description="Asn v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{2B5DD740-5E3F-420C-9526-976596516B4C}" Context="InprocServer32" Description="MessageSet v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.MessageSet.1" Description="MessageSet v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.MessageSet" Description="MessageSet v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{2F332CE0-6FCA-41B7-80BB-07D9D2AC86C7}" Context="InprocServer32" Description="Mailboxes v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Mailboxes.1" Description="Mailboxes v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Mailboxes" Description="Mailboxes v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{30CE0223-B0E1-49CA-97A7-9FC0B49DDB13}" Context="InprocServer32" Description="CertChain v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.CertChain.1" Description="CertChain v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.CertChain" Description="CertChain v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{32BD32D3-66EA-4EE6-A684-20CE86F757C1}" Context="InprocServer32" Description="Ftp2 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Ftp2.1" Description="Ftp2 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Ftp2" Description="Ftp2 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{345A5644-4F8E-4BCC-8E65-389B3C9D52B6}" Context="InprocServer32" Description="SFtp v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SFtp.1" Description="SFtp v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SFtp" Description="SFtp v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{38F12EC7-0910-485F-8938-6BF2CA2B5C02}" Context="InprocServer32" Description="Log v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Log.1" Description="Log v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Log" Description="Log v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{39FFE2A9-BBF3-48ED-AB97-11F202615954}" Context="InprocServer32" Description="TaskChain v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.TaskChain.1" Description="TaskChain v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.TaskChain" Description="TaskChain v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{3A0FA677-D32D-4A7D-A809-9E39F6CB7E88}" Context="InprocServer32" Description="XmlDSig v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.XmlDSig.1" Description="XmlDSig v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.XmlDSig" Description="XmlDSig v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{3D80DB49-232B-4139-8697-E0202E8B8B8E}" Context="InprocServer32" Description="Atom v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Atom.1" Description="Atom v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Atom" Description="Atom v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{3EDACCBC-87DE-45C5-8885-94B6820BE11A}" Context="InprocServer32" Description="PublicKey v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.PublicKey.1" Description="PublicKey v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.PublicKey" Description="PublicKey v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{439AD464-8F0D-46EC-8D98-A32DE09D8C5B}" Context="InprocServer32" Description="ServerSentEvent v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.ServerSentEvent.1" Description="ServerSentEvent v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.ServerSentEvent" Description="ServerSentEvent v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{47A6DFB7-4A42-434A-B794-59F6FB26563B}" Context="InprocServer32" Description="Ntlm v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Ntlm.1" Description="Ntlm v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Ntlm" Description="Ntlm v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{498AFA88-75B4-4860-AFCC-9FE560444B88}" Context="InprocServer32" Description="SCard v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SCard.1" Description="SCard v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SCard" Description="SCard v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{4A512F1D-8554-4EE4-A0C1-68AC4C2C517E}" Context="InprocServer32" Description="Pfx v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Pfx.1" Description="Pfx v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Pfx" Description="Pfx v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{4E17ECD2-EA48-4BB4-8F30-94D74C577034}" Context="InprocServer32" Description="StringTable v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.StringTable.1" Description="StringTable v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.StringTable" Description="StringTable v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{501B9600-382D-454D-AA0A-3BC22A87C485}" Context="InprocServer32" Description="Xml v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Xml.1" Description="Xml v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Xml" Description="Xml v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{540054E6-D577-4E92-B730-86E83ADD9172}" Context="InprocServer32" Description="HtmlToText v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.HtmlToText.1" Description="HtmlToText v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.HtmlToText" Description="HtmlToText v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{58BD963E-12A4-427E-9500-3A4FCEB545B2}" Context="InprocServer32" Description="Spider v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Spider.1" Description="Spider v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Spider" Description="Spider v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{5915A8E1-EF48-44C5-B6C0-5D2433A00400}" Context="InprocServer32" Description="AuthUtil v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthUtil.1" Description="AuthUtil v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthUtil" Description="AuthUtil v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{5930D6DE-C26E-4543-B971-ED01FD1C7472}" Context="InprocServer32" Description="SecureString v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SecureString.1" Description="SecureString v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SecureString" Description="SecureString v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{5968F990-ECED-40C1-B461-C0C8540BF607}" Context="InprocServer32" Description="WebSocket v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.WebSocket.1" Description="WebSocket v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.WebSocket" Description="WebSocket v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{5B9D28CC-9FE1-4601-89E3-681DD583B290}" Context="InprocServer32" Description="KeyContainer v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.KeyContainer.1" Description="KeyContainer v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.KeyContainer" Description="KeyContainer v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{5BE34693-974D-41B8-931C-73506CDEE2BE}" Context="InprocServer32" Description="Rest v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Rest.1" Description="Rest v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Rest" Description="Rest v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{60646F46-D0EA-4BDA-945A-57BD988F1C37}" Context="InprocServer32" Description="StringArray v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.StringArray.1" Description="StringArray v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.StringArray" Description="StringArray v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{628C899B-7559-4062-9E65-A47386343965}" Context="InprocServer32" Description="Dsa v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Dsa.1" Description="Dsa v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Dsa" Description="Dsa v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{647EC4D1-B7EE-494D-9AE8-823C7FF683D9}" Context="InprocServer32" Description="Bz2 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Bz2.1" Description="Bz2 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Bz2" Description="Bz2 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{64A034EA-ACEB-4D48-8A00-2E7662A41154}" Context="InprocServer32" Description="TrustedRoots v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.TrustedRoots.1" Description="TrustedRoots v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.TrustedRoots" Description="TrustedRoots v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{65EA825E-648E-4BF0-8AA3-4E7724F75B07}" Context="InprocServer32" Description="HttpResponse v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.HttpResponse.1" Description="HttpResponse v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.HttpResponse" Description="HttpResponse v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{66ABCD9E-0B52-4AEC-872C-837C3D7CC9C1}" Context="InprocServer32" Description="AuthAzureStorage v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthAzureStorage.1" Description="AuthAzureStorage v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthAzureStorage" Description="AuthAzureStorage v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{68993996-4448-4B92-99B7-3715CE60D316}" Context="InprocServer32" Description="Cache v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Cache.1" Description="Cache v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Cache" Description="Cache v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{6999AD77-7D2B-4929-B8BA-A253EDE63752}" Context="InprocServer32" Description="AuthAzureSAS v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthAzureSAS.1" Description="AuthAzureSAS v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthAzureSAS" Description="AuthAzureSAS v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{69E3A666-7F49-4B53-A77F-A8D14217E442}" Context="InprocServer32" Description="ZipEntry v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.ZipEntry.1" Description="ZipEntry v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.ZipEntry" Description="ZipEntry v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{6A10A7BB-7828-4050-9BD3-F4D2D97C6AB5}" Context="InprocServer32" Description="Csp v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Csp.1" Description="Csp v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Csp" Description="Csp v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{6EBA710B-0C0F-4E86-859A-94829089E436}" Context="InprocServer32" Description="AuthGoogle v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthGoogle.1" Description="AuthGoogle v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthGoogle" Description="AuthGoogle v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{70A93698-84F4-4B7A-9D04-B354DBC6C3F9}" Context="InprocServer32" Description="CkString v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.CkString.1" Description="CkString v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.CkString" Description="CkString v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{73E12250-549F-4799-9D6A-0F23C279BD6E}" Context="InprocServer32" Description="Scp v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Scp.1" Description="Scp v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Scp" Description="Scp v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{78953289-3055-4D28-880A-AA9B61BAD3BD}" Context="InprocServer32" Description="Prng v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Prng.1" Description="Prng v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Prng" Description="Prng v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{78AB3AA4-28A5-449B-959E-FFCC2602854D}" Context="InprocServer32" Description="ZipCrc v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.ZipCrc.1" Description="ZipCrc v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.ZipCrc" Description="ZipCrc v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{78EBC21F-0841-4D47-9DD4-E324F122205F}" Context="InprocServer32" Description="Email v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Email.1" Description="Email v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Email" Description="Email v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{7D106007-79F8-4D80-9CB7-B6CC4000F0B1}" Context="InprocServer32" Description="SFtpFile v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SFtpFile.1" Description="SFtpFile v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SFtpFile" Description="SFtpFile v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{82DF90A6-29B8-4BFC-9433-76A7BC3E0E82}" Context="InprocServer32" Description="JsonObject v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.JsonObject.1" Description="JsonObject v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.JsonObject" Description="JsonObject v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{88958592-6B2D-4CF1-9652-B9803F41990A}" Context="InprocServer32" Description="XmlDSigGen v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.XmlDSigGen.1" Description="XmlDSigGen v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.XmlDSigGen" Description="XmlDSigGen v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{907F3EC0-A455-4B36-8FDC-F3A2B22F1BD2}" Context="InprocServer32" Description="HtmlToXml v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.HtmlToXml.1" Description="HtmlToXml v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.HtmlToXml" Description="HtmlToXml v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{92B5CBD6-68B3-4C17-A717-696CC27D893E}" Context="InprocServer32" Description="StringBuilder v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.StringBuilder.1" Description="StringBuilder v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.StringBuilder" Description="StringBuilder v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{96B3C4B8-9F07-469D-ADAA-E1D14BF50341}" Context="InprocServer32" Description="Xmp v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Xmp.1" Description="Xmp v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Xmp" Description="Xmp v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{9FC3155D-8F03-459F-9D96-65ADE17D3615}" Context="InprocServer32" Description="Jwt v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Jwt.1" Description="Jwt v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Jwt" Description="Jwt v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{A3F78ADD-62C2-475F-9040-80ACBFD412FA}" Context="InprocServer32" Description="FileAccess v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.FileAccess.1" Description="FileAccess v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.FileAccess" Description="FileAccess v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{A74C26D2-2429-4099-8672-2250B15E327F}" Context="InprocServer32" Description="Http v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Http.1" Description="Http v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Http" Description="Http v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{ABC37F7C-0423-42E4-BBD2-E713B8BD3BA1}" Context="InprocServer32" Description="DirTree v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.DirTree.1" Description="DirTree v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.DirTree" Description="DirTree v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{AC217674-DB08-4F7E-AB20-9F5F1026C464}" Context="InprocServer32" Description="Upload v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Upload.1" Description="Upload v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Upload" Description="Upload v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{B1BB04F7-7CA9-4BD7-AE19-EA936D611F91}" Context="InprocServer32" Description="AuthAzureAD v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.AuthAzureAD.1" Description="AuthAzureAD v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.AuthAzureAD" Description="AuthAzureAD v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{B2429147-23BE-4A55-8EAE-2AFF2635815B}" Context="InprocServer32" Description="Global v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Global.1" Description="Global v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Global" Description="Global v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{B4EC2631-0DC1-4791-B691-BE333E574CC2}" Context="InprocServer32" Description="Cert v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Cert.1" Description="Cert v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Cert" Description="Cert v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{B70D813F-5CE3-4C93-A793-B21CD8CE133A}" Context="InprocServer32" Description="Dkim v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Dkim.1" Description="Dkim v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Dkim" Description="Dkim v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{BA1083B2-D377-4650-8688-B7972CD5B570}" Context="InprocServer32" Description="Csr v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Csr.1" Description="Csr v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Csr" Description="Csr v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{C3FC6EA1-3982-45AA-8CB8-B3BFC9DFDDC7}" Context="InprocServer32" Description="Socket v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Socket.1" Description="Socket v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Socket" Description="Socket v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{C604DBFD-657D-438D-8399-4B990CB1819C}" Context="InprocServer32" Description="Url v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Url.1" Description="Url v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Url" Description="Url v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{C95EAE19-C7B8-4297-A6C6-B4B973A8B867}" Context="InprocServer32" Description="Zip v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Zip.1" Description="Zip v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Zip" Description="Zip v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{CC3B92E4-C58C-40FE-A271-E407A7775848}" Context="InprocServer32" Description="OAuth2 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.OAuth2.1" Description="OAuth2 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.OAuth2" Description="OAuth2 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{CC55FCB9-0500-45C2-8FED-CCB7D1A54A24}" Context="InprocServer32" Description="Rss v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Rss.1" Description="Rss v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Rss" Description="Rss v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{CEDB6B70-ED7D-4F9E-A0BC-66AFB42F7735}" Context="InprocServer32" Description="Imap v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Imap.1" Description="Imap v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Imap" Description="Imap v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D01DB5A3-B9B7-4837-9874-FBA5BA171976}" Context="InprocServer32" Description="SshTunnel v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SshTunnel.1" Description="SshTunnel v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SshTunnel" Description="SshTunnel v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D647A429-3349-47B5-B62D-7EF758000363}" Context="InprocServer32" Description="Gzip v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Gzip.1" Description="Gzip v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Gzip" Description="Gzip v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D66A2F08-A267-4593-ACD4-3EF65255E005}" Context="InprocServer32" Description="HttpRequest v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.HttpRequest.1" Description="HttpRequest v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.HttpRequest" Description="HttpRequest v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D67AF44C-0AA8-424A-AF73-2070B4C11781}" Context="InprocServer32" Description="Ssh v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Ssh.1" Description="Ssh v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Ssh" Description="Ssh v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D6CEA276-E79C-4026-BD46-933E3C8F88D8}" Context="InprocServer32" Description="Compression v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Compression.1" Description="Compression v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Compression" Description="Compression v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{D8706DCB-91E3-409C-AAEF-082CE6F9B905}" Context="InprocServer32" Description="Pdf v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Pdf.1" Description="Pdf v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Pdf" Description="Pdf v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{DA61F111-C1C4-432F-819D-6EDA9DEFEA67}" Context="InprocServer32" Description="XmlCertVault v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.XmlCertVault.1" Description="XmlCertVault v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.XmlCertVault" Description="XmlCertVault v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{DE9FC63E-73D2-4952-BB8B-9C37A7ADE1E6}" Context="InprocServer32" Description="EmailBundle v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.EmailBundle.1" Description="EmailBundle v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.EmailBundle" Description="EmailBundle v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{DF519DD3-CF6D-4BC1-A68C-9049FFF6713D}" Context="InprocServer32" Description="Charset v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Charset.1" Description="Charset v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Charset" Description="Charset v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{DF989EA3-0F71-4201-87BE-4EAC008F4340}" Context="InprocServer32" Description="ScMinidriver v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.ScMinidriver.1" Description="ScMinidriver v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.ScMinidriver" Description="ScMinidriver v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{DFFB3371-78AA-45C5-B8A2-32BB1DD5C846}" Context="InprocServer32" Description="PrivateKey v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.PrivateKey.1" Description="PrivateKey v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.PrivateKey" Description="PrivateKey v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{E385A6A7-3557-47F5-9763-252278262C41}" Context="InprocServer32" Description="SFtpDir v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.SFtpDir.1" Description="SFtpDir v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.SFtpDir" Description="SFtpDir v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{E54CDB98-DD19-4155-841C-6DBA6618D5D8}" Context="InprocServer32" Description="Tar v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Tar.1" Description="Tar v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Tar" Description="Tar v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{E59035A9-E94D-47E8-92BF-59A4EB1AAC83}" Context="InprocServer32" Description="OAuth1 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.OAuth1.1" Description="OAuth1 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.OAuth1" Description="OAuth1 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{E9464A9F-B8D4-443D-88C3-DF3E9C6308AA}" Context="InprocServer32" Description="Csv v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Csv.1" Description="Csv v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Csv" Description="Csv v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{E98C2D0C-6053-4568-9BCE-D6350C39CD93}" Context="InprocServer32" Description="CreateCS v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.CreateCS.1" Description="CreateCS v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.CreateCS" Description="CreateCS v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{EFA96FEC-9371-4C3B-AB6D-DA9CDEF3CC41}" Context="InprocServer32" Description="Task v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Task.1" Description="Task v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Task" Description="Task v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F19E7679-F483-46D4-9E87-0253F0820A02}" Context="InprocServer32" Description="Dh v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Dh.1" Description="Dh v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Dh" Description="Dh v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F21F7AF3-32B0-48D9-B99D-A08159D2B463}" Context="InprocServer32" Description="Cgi v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Cgi.1" Description="Cgi v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Cgi" Description="Cgi v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F27B0378-FAE6-4A75-A018-697CFB5B9864}" Context="InprocServer32" Description="Pkcs11 v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Pkcs11.1" Description="Pkcs11 v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Pkcs11" Description="Pkcs11 v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F28D37F7-F537-45B0-BD88-A5877FC649DD}" Context="InprocServer32" Description="Hashtable v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Hashtable.1" Description="Hashtable v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Hashtable" Description="Hashtable v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F8295E9E-9E5B-486E-AA93-33E5726C4EE6}" Context="InprocServer32" Description="UnixCompress v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.UnixCompress.1" Description="UnixCompress v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.UnixCompress" Description="UnixCompress v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F8CB82D2-BECB-41EA-8356-B1F1A89E9DF1}" Context="InprocServer32" Description="JsonArray v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.JsonArray.1" Description="JsonArray v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.JsonArray" Description="JsonArray v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{F9B4FBE1-4059-4C53-8342-585BC9D68947}" Context="InprocServer32" Description="Jws v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Jws.1" Description="Jws v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Jws" Description="Jws v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{FA61EA29-BFF4-4CC4-AEC6-C7BA6590178F}" Context="InprocServer32" Description="Ecc v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Ecc.1" Description="Ecc v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Ecc" Description="Ecc v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{FCC90B64-42F9-47A7-84D3-0DD681A6CA07}" Context="InprocServer32" Description="Stream v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Stream.1" Description="Stream v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Stream" Description="Stream v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{FF4DF009-0001-41ED-BABB-5B4967515601}" Context="InprocServer32" Description="Jwe v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.Jwe.1" Description="Jwe v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.Jwe" Description="Jwe v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                            <Class Id="{FF6CA005-E9AA-418C-9555-3842B8BD54BB}" Context="InprocServer32" Description="BinData v9.5.0.94" ThreadingModel="apartment" Version="1.0" Insertable="yes" Programmable="yes" Control="yes">
+                                <ProgId Id="Chilkat_9_5_0.BinData.1" Description="BinData v9.5.0.94">
+                                    <ProgId Id="Chilkat_9_5_0.BinData" Description="BinData v9.5.0.94" />
+                                </ProgId>
+                            </Class>
+                        </AppId>
+                        <Interface Id="{011A33C5-ABFF-431E-A08C-D6038DDA1CAA}" Name="IChilkatPem" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{01A80A1C-F3CB-4837-B577-2C67E275D441}" Name="IChilkatWebSocket" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{064748FA-01E3-4ACD-8DAD-859556B263BD}" Name="IChilkatCache" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{0652E658-CB05-447B-95E5-0FB06EB8C23B}" Name="IChilkatSecureString" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{06F8688C-465F-45DB-A2F5-E1E4EF222D39}" Name="IChilkatJsonArray" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{07530635-48E4-4E43-B3C5-7BF9FF08C2C5}" Name="IChilkatXmlDSigGen" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{08114E7A-8556-40E9-8CE1-0BE2E7A041A8}" Name="IChilkatCreateCS" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{09718276-04D7-4A84-B699-42FA9A49A645}" Name="IChilkatJwt" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{0F01CF8C-CE79-4812-8D55-3BD7CC34A318}" Name="IMessageSet" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{1129D7E0-450F-40E6-875F-5CA923E84CA2}" Name="IChilkatCsr" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{17F00BC0-F47D-4AC2-9C20-16D73BA9D42D}" Name="IChilkatXmp" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{1ACAAAB7-E818-41AE-AF3F-8F6911A91467}" Name="IDtObj" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{1B708D67-5ED0-4A1E-8894-144C531FB095}" Name="IChilkatPfx" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{1BCCF756-2714-431F-A92A-30B7DFFF3A56}" Name="_IChilkatTarEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2077C1B5-FBD0-40DF-B7AA-E07CBA589CB0}" Name="IChilkatXml" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{26377592-38BD-42DC-9C8B-CB38900F250B}" Name="IChilkatCsp" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{26823E1F-8672-4404-955F-87A5A6E3D80E}" Name="IChilkatUrl" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2701FB1F-7865-4CD0-8E1B-2BB97F701946}" Name="IChilkatSFtp" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{270A27B7-1D62-490D-82E4-A35269722E23}" Name="IChilkatRss" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2CABA7DB-F1DD-4E6D-943B-330CF27F6A5D}" Name="IChilkatCert" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2D924A0F-A828-4482-A1DB-DD80E2FF35EF}" Name="IChilkatDkim" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2DB04566-D0BC-4FCF-926A-3E11B37E0B01}" Name="IMailboxes" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{2E0EB5F9-CD80-407B-B5F3-60AE67679967}" Name="IChilkatImap" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{30444DA6-9559-43D3-876F-E6C0FC709D18}" Name="IChilkatAuthGoogle" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{32C35CC7-1CA6-4897-B21A-116D6DD42381}" Name="IChilkatBounce" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{380B144D-5AF4-4DC3-BBDF-AD8E25F16188}" Name="IChilkatCrypt2" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{38C0D3A8-6FB8-42B1-BDC0-077177D72323}" Name="IChilkatSFtpDir" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3A2BC588-F8E2-4BE3-A154-A3A99CF51E9F}" Name="IChilkatFtp2" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3AB70566-E8D9-474F-A244-5DA0260892C1}" Name="_IChilkatMailManEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3B8C1209-EEFB-408B-8FA3-A59EE8034072}" Name="IChilkatCsv" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{3EC2BC0F-8ECB-4008-AEB7-758972455492}" Name="IChilkatEmail" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{409F23C5-B973-4611-93DD-8FE839BC5860}" Name="IChilkatGzip" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{416E33A0-BD55-4CD8-936B-7EEAF8850D0F}" Name="IChilkatScp" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{451414D2-10F9-47D9-8078-0D10C55B4D26}" Name="IChilkatPdf" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{45484EC9-E196-492F-8C1F-6D311F89036E}" Name="IChilkatMime" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4558E02C-E015-41EC-89A3-0A71BC70E627}" Name="IChilkatAuthAzureSAS" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{472C650D-C892-415C-AA6F-B0B82DEEBCFF}" Name="IChilkatScMinidriver" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{47C1D4CA-692B-46D4-A127-5691075D0F6A}" Name="IChilkatOAuth1" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{47F0E40C-D2E5-4E14-8133-750275823B82}" Name="ICkString" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{495F8CD2-9F03-4A83-A9BC-FEEAE2182D9B}" Name="IChilkatHttpRequest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4995C839-42F3-4D4F-8A08-1BA24B5F5E8F}" Name="IChilkatGlobal" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4A129764-F661-4DD9-B357-8F523B17FF94}" Name="IChilkatAsn" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4C963716-FB14-4D7F-A176-1AC6E30BDEDA}" Name="IChilkatXmlCertVault" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{4E737594-4147-4E1D-A1A9-8A55E3FE603E}" Name="IChilkatAuthAws" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{53162CD7-EADA-4DA9-BEB2-E899CAFF3A63}" Name="IChilkatLog" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{54E9A3A9-44F6-4E38-AA16-F27FB906EE7A}" Name="IChilkatCharset" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{589D07F4-1FED-450D-B896-87C88DC56F70}" Name="IChilkatStringTable" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{623BCB7F-A659-48E0-8310-630137759D2B}" Name="IChilkatJws" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{62E25622-219C-4569-97FA-89594674076A}" Name="IChilkatSFtpFile" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{68CB048E-A120-4A99-B9DC-650775764421}" Name="IUnixCompress" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{6D9CB79B-EDFF-4B36-8A2B-E24A0D94838C}" Name="IChilkatTar" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{6DF65A40-F292-4D8D-8738-4814084CCD6B}" Name="ICkStringArray" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{73B5832B-AACE-4975-9238-09579CB89232}" Name="IChilkatCompression" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{784E1D7C-F1E5-472F-AA06-AA6F1563ED94}" Name="IChilkatAtom" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{78C0A2E3-8712-4C8E-9FD0-24FB3E003A72}" Name="IChilkatStringBuilder" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{7919C172-F7FD-40BB-9A28-ACC2EA4ED66F}" Name="IHtmlToText" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{792D2027-B40F-4894-9248-5E9A3FA09F36}" Name="IChilkatSsh" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{7998B064-06E7-4960-ACEF-AAFF0A262487}" Name="IChilkatMailMan" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{8AB7C0CF-D2E0-4136-AD0D-8BEFA9E29F4D}" Name="IChilkatSCard" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{8B32E2E7-6846-4B3F-B686-A2E62F6A85C4}" Name="IChilkatTrustedRoots" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{8C819F76-4B5C-4E9C-A49A-D6BF2190C09C}" Name="IChilkatZipCrc" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{8CBE1840-52FA-4404-824C-139577309528}" Name="IChilkatCertStore" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{91D24DB1-0F9E-4E77-B629-70BEE2F61D36}" Name="_IChilkatEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{93FCA31B-08C3-4E72-836B-B31123F7C2CC}" Name="IChilkatSocket" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{97DAB705-84AB-4228-8EB7-2A3E657462F7}" Name="_IChilkatSFtpEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{9AA01786-63E0-45E4-8676-24B49937318E}" Name="IChilkatPkcs11" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{9C1C50C2-C003-4348-BD42-BF6D51852D7D}" Name="IChilkatPrng" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{9DF35ADF-B748-4435-B6A5-0EA8397114D7}" Name="IChilkatStream" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{9EDDA6C9-A95E-4CE6-B4A3-6C4FE24B08C9}" Name="IChilkatDh" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{A02D931E-49CC-4D6F-85F5-2D74AB061990}" Name="_IChilkatHttpEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{A1F4B713-D40B-4B92-BAB8-016AD671ACE8}" Name="IChilkatEcc" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{A325D50D-6A7D-423F-9087-4242DC382181}" Name="IChilkatEmailBundle" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{A488AA74-6A93-440C-B18D-26751B20625C}" Name="IChilkatXmlDSig" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{ACB125C6-B8C9-46E1-8B9F-2DB44DB1B5EE}" Name="IChilkatJavaKeyStore" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{AD9E69CC-E2E6-4C63-90A9-29084032D024}" Name="IChilkatEdDSA" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B2AA3D60-500A-4725-8430-3A5F16D97D58}" Name="IChilkatAuthAzureAD" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B777D3CD-07A8-4E22-9AB2-EC62B7160ABF}" Name="IChilkatSshTunnel" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{B7C0253A-251F-4BC7-98D1-31A045DCE65D}" Name="IChilkatNtlm" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{BDAB5180-01A8-4D6C-AD56-CFD444EA4C07}" Name="IChilkatJsonObject" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C143C715-0FED-4392-B207-1CA3CDF84C88}" Name="IChilkatHttpResponse" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C374E6D6-2B8E-4030-89EC-3DE7FC67257F}" Name="IKeyContainer" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C574CD73-D2A4-43C4-8A00-3A8A8FC3FA79}" Name="IChilkatSshKey" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C68497C9-2779-48A4-9062-6DAD6EA5E1C6}" Name="IChilkatZipEntry" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C71DB905-E991-4089-9FFB-BB692A8A8D1D}" Name="IChilkatCgi" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C7309141-CCF2-45D0-A672-FFB26648B94F}" Name="IChilkatJwe" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C754C4B4-6B0A-4664-ADDD-45467F0BCB7E}" Name="IChilkatHttp" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C791AB84-B72F-4DEF-82ED-156F4B027876}" Name="IPrivateKey" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C8B4F6DF-1E35-43B9-913C-B235F91B6D4D}" Name="ICkDirTree" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C931B7DB-71FB-45CE-BA70-36BEF6CEAF1E}" Name="IChilkatRsa" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{C9BEAC5F-76C4-4011-9ED3-BD92D8DC577D}" Name="IChilkatAuthAzureStorage" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{CB3E07ED-EBD4-4CEA-949F-53EDE8806F8F}" Name="IChilkatSpider" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{CCAD6703-0549-4DDE-8127-97D073A8CCF9}" Name="IChilkatTaskChain" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{CDA20F7F-7E23-471E-82E6-7609EE84CD54}" Name="ICkFileAccess" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D1EC207F-F466-4114-A304-DF34751223A1}" Name="IPublicKey" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D39623DD-417F-4651-8E8B-3BAE5A8F4D4D}" Name="IChilkatDsa" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D57DD27C-0065-41FA-ACB5-EBD8AB552A1E}" Name="_IChilkatFtp2Events" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D72E7F04-7817-4BA7-8FC2-6C890E94BC86}" Name="IChilkatUpload" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D985C806-44A2-4BBD-9FC4-EDD1CD82F03E}" Name="IChilkatRest" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{D9F89B84-C49F-432A-82BF-F44C1BF16871}" Name="IChilkatHashtable" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{DD2EABF5-8988-4A8E-908C-AD7FFA38AE59}" Name="IChilkatOAuth2" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{DDD8463D-2F40-43F8-8C05-F9090816D65D}" Name="IChilkatBinData" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{E05C10E0-F9E3-4E4E-8784-E4DA4285A085}" Name="IChilkatCertChain" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{E1DCA282-3782-4320-AEBE-B739755E6746}" Name="IChilkatServerSentEvent" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{E597F80D-BF1A-44AD-A038-D6AC9881B335}" Name="IChilkatBz2" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{EFE9ADE4-0851-49E2-BC0B-AB26E0353B1B}" Name="IChilkatZip" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{F063D06F-1395-4CB0-AB8A-3C86C80F077E}" Name="ICkDateTime" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{F0C2D9C1-0B80-432D-A60C-0957A5A03AAE}" Name="_IChilkatZipEvents" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+                        <Interface Id="{F1089DE8-926E-4BB9-ADAF-9E312F1BBD78}" Name="IChilkatMht" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{F312552A-2E77-4866-95CA-A3699D7D6ED2}" Name="IChilkatTask" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{FE065188-0A9D-4822-9017-05A5A68CE33C}" Name="IChilkatAuthUtil" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                        <Interface Id="{FE82184C-B69F-4B58-9DBC-463FB2F6A422}" Name="IHtmlToXml" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+                    </TypeLib>
+                </File>
+                <RegistryValue Root="HKCR" Key="AppID\ChilkatAx.DLL" Name="AppID" Value="{77317069-C4A6-4489-BEB9-757AA9525B31}" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Asn.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Atom.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthAws.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthAzureAD.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthAzureSAS.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthAzureStorage.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthGoogle.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.AuthUtil.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.BinData.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Bounce.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Bz2.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Cache.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Cert.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.CertChain.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.CertStore.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Cgi.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Charset.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.CkDateTime.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.CkString.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Compression.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.CreateCS.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Crypt2.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Csp.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Csr.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Csv.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Dh.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.DirTree.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Dkim.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Dsa.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.DtObj.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Ecc.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.EdDSA.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Email.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.EmailBundle.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.FileAccess.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Ftp2.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Global.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Gzip.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Hashtable.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.HtmlToText.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.HtmlToXml.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Http.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.HttpRequest.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.HttpResponse.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Imap.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.JavaKeyStore.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.JsonArray.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.JsonObject.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Jwe.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Jws.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Jwt.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.KeyContainer.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Log.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Mailboxes.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.MailMan.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.MessageSet.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Mht.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Mime.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Ntlm.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.OAuth1.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.OAuth2.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Pdf.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Pem.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Pfx.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Pkcs11.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.PrivateKey.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Prng.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.PublicKey.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Rest.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Rsa.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Rss.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SCard.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.ScMinidriver.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Scp.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SecureString.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.ServerSentEvent.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SFtp.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SFtpDir.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SFtpFile.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Socket.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Spider.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Ssh.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SshKey.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.SshTunnel.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Stream.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.StringArray.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.StringBuilder.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.StringTable.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Tar.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Task.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.TaskChain.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.TrustedRoots.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.UnixCompress.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Upload.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Url.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.WebSocket.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Xml.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.XmlCertVault.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.XmlDSig.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.XmlDSigGen.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Xmp.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.Zip.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.ZipCrc.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Chilkat_9_5_0.ZipEntry.1\Insertable" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00E685A8-7AE9-4DC5-8C78-54C03A8646FC}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00E685A8-7AE9-4DC5-8C78-54C03A8646FC}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00E685A8-7AE9-4DC5-8C78-54C03A8646FC}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01AFB62C-BE3C-4706-B77E-CB20DEDA1D4D}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01AFB62C-BE3C-4706-B77E-CB20DEDA1D4D}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01AFB62C-BE3C-4706-B77E-CB20DEDA1D4D}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0481098A-742F-4E3C-BBF5-B1D94EC62CE0}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0481098A-742F-4E3C-BBF5-B1D94EC62CE0}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0481098A-742F-4E3C-BBF5-B1D94EC62CE0}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{06B36116-235B-4AB9-987D-3B4C7E689247}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{06B36116-235B-4AB9-987D-3B4C7E689247}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{06B36116-235B-4AB9-987D-3B4C7E689247}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B30402C-CDB2-45D2-B7BC-7C1F78C72C1C}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B30402C-CDB2-45D2-B7BC-7C1F78C72C1C}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B30402C-CDB2-45D2-B7BC-7C1F78C72C1C}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B7700DB-79D8-40FB-95B9-03FCC9646439}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B7700DB-79D8-40FB-95B9-03FCC9646439}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B7700DB-79D8-40FB-95B9-03FCC9646439}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D35E491-3CD9-470D-9373-D1B8BFC7A298}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D35E491-3CD9-470D-9373-D1B8BFC7A298}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D35E491-3CD9-470D-9373-D1B8BFC7A298}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{10F9AFBB-94CF-4556-A066-DD457D3254CF}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{10F9AFBB-94CF-4556-A066-DD457D3254CF}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{10F9AFBB-94CF-4556-A066-DD457D3254CF}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{13D60A54-46AE-4B1A-86F3-652A79EA88C6}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{13D60A54-46AE-4B1A-86F3-652A79EA88C6}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{13D60A54-46AE-4B1A-86F3-652A79EA88C6}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{188354F0-DC78-49C2-8390-5FCA2D6B3876}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{188354F0-DC78-49C2-8390-5FCA2D6B3876}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{188354F0-DC78-49C2-8390-5FCA2D6B3876}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1AF44DC7-C896-46BA-B45B-C168FA7612A6}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1AF44DC7-C896-46BA-B45B-C168FA7612A6}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1AF44DC7-C896-46BA-B45B-C168FA7612A6}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1CE47E56-B8E4-4964-83E2-D14BEE0AED03}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1CE47E56-B8E4-4964-83E2-D14BEE0AED03}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1CE47E56-B8E4-4964-83E2-D14BEE0AED03}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1D304D4B-3E7F-475C-800E-16177166E43A}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1D304D4B-3E7F-475C-800E-16177166E43A}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{1D304D4B-3E7F-475C-800E-16177166E43A}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{28309D42-1299-4797-AED4-64FD33B47923}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{28309D42-1299-4797-AED4-64FD33B47923}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{28309D42-1299-4797-AED4-64FD33B47923}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2935F301-12A9-47A9-97C4-8B7879124EF1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2935F301-12A9-47A9-97C4-8B7879124EF1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2935F301-12A9-47A9-97C4-8B7879124EF1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2B5DD740-5E3F-420C-9526-976596516B4C}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2B5DD740-5E3F-420C-9526-976596516B4C}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2B5DD740-5E3F-420C-9526-976596516B4C}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2F332CE0-6FCA-41B7-80BB-07D9D2AC86C7}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2F332CE0-6FCA-41B7-80BB-07D9D2AC86C7}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2F332CE0-6FCA-41B7-80BB-07D9D2AC86C7}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{30CE0223-B0E1-49CA-97A7-9FC0B49DDB13}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{30CE0223-B0E1-49CA-97A7-9FC0B49DDB13}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{30CE0223-B0E1-49CA-97A7-9FC0B49DDB13}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{32BD32D3-66EA-4EE6-A684-20CE86F757C1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{32BD32D3-66EA-4EE6-A684-20CE86F757C1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{32BD32D3-66EA-4EE6-A684-20CE86F757C1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{345A5644-4F8E-4BCC-8E65-389B3C9D52B6}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{345A5644-4F8E-4BCC-8E65-389B3C9D52B6}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{345A5644-4F8E-4BCC-8E65-389B3C9D52B6}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{38F12EC7-0910-485F-8938-6BF2CA2B5C02}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{38F12EC7-0910-485F-8938-6BF2CA2B5C02}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{38F12EC7-0910-485F-8938-6BF2CA2B5C02}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{39FFE2A9-BBF3-48ED-AB97-11F202615954}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{39FFE2A9-BBF3-48ED-AB97-11F202615954}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{39FFE2A9-BBF3-48ED-AB97-11F202615954}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3A0FA677-D32D-4A7D-A809-9E39F6CB7E88}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3A0FA677-D32D-4A7D-A809-9E39F6CB7E88}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3A0FA677-D32D-4A7D-A809-9E39F6CB7E88}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3D80DB49-232B-4139-8697-E0202E8B8B8E}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3D80DB49-232B-4139-8697-E0202E8B8B8E}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3D80DB49-232B-4139-8697-E0202E8B8B8E}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3EDACCBC-87DE-45C5-8885-94B6820BE11A}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3EDACCBC-87DE-45C5-8885-94B6820BE11A}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{3EDACCBC-87DE-45C5-8885-94B6820BE11A}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{439AD464-8F0D-46EC-8D98-A32DE09D8C5B}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{439AD464-8F0D-46EC-8D98-A32DE09D8C5B}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{439AD464-8F0D-46EC-8D98-A32DE09D8C5B}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{47A6DFB7-4A42-434A-B794-59F6FB26563B}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{47A6DFB7-4A42-434A-B794-59F6FB26563B}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{47A6DFB7-4A42-434A-B794-59F6FB26563B}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{498AFA88-75B4-4860-AFCC-9FE560444B88}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{498AFA88-75B4-4860-AFCC-9FE560444B88}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{498AFA88-75B4-4860-AFCC-9FE560444B88}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4A512F1D-8554-4EE4-A0C1-68AC4C2C517E}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4A512F1D-8554-4EE4-A0C1-68AC4C2C517E}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4A512F1D-8554-4EE4-A0C1-68AC4C2C517E}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4E17ECD2-EA48-4BB4-8F30-94D74C577034}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4E17ECD2-EA48-4BB4-8F30-94D74C577034}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4E17ECD2-EA48-4BB4-8F30-94D74C577034}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{501B9600-382D-454D-AA0A-3BC22A87C485}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{501B9600-382D-454D-AA0A-3BC22A87C485}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{501B9600-382D-454D-AA0A-3BC22A87C485}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{540054E6-D577-4E92-B730-86E83ADD9172}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{540054E6-D577-4E92-B730-86E83ADD9172}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{540054E6-D577-4E92-B730-86E83ADD9172}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{58BD963E-12A4-427E-9500-3A4FCEB545B2}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{58BD963E-12A4-427E-9500-3A4FCEB545B2}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{58BD963E-12A4-427E-9500-3A4FCEB545B2}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5915A8E1-EF48-44C5-B6C0-5D2433A00400}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5915A8E1-EF48-44C5-B6C0-5D2433A00400}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5915A8E1-EF48-44C5-B6C0-5D2433A00400}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5930D6DE-C26E-4543-B971-ED01FD1C7472}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5930D6DE-C26E-4543-B971-ED01FD1C7472}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5930D6DE-C26E-4543-B971-ED01FD1C7472}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5968F990-ECED-40C1-B461-C0C8540BF607}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5968F990-ECED-40C1-B461-C0C8540BF607}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5968F990-ECED-40C1-B461-C0C8540BF607}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5B9D28CC-9FE1-4601-89E3-681DD583B290}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5B9D28CC-9FE1-4601-89E3-681DD583B290}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5B9D28CC-9FE1-4601-89E3-681DD583B290}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5BE34693-974D-41B8-931C-73506CDEE2BE}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5BE34693-974D-41B8-931C-73506CDEE2BE}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{5BE34693-974D-41B8-931C-73506CDEE2BE}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{60646F46-D0EA-4BDA-945A-57BD988F1C37}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{60646F46-D0EA-4BDA-945A-57BD988F1C37}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{60646F46-D0EA-4BDA-945A-57BD988F1C37}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{628C899B-7559-4062-9E65-A47386343965}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{628C899B-7559-4062-9E65-A47386343965}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{628C899B-7559-4062-9E65-A47386343965}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{647EC4D1-B7EE-494D-9AE8-823C7FF683D9}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{647EC4D1-B7EE-494D-9AE8-823C7FF683D9}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{647EC4D1-B7EE-494D-9AE8-823C7FF683D9}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{64A034EA-ACEB-4D48-8A00-2E7662A41154}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{64A034EA-ACEB-4D48-8A00-2E7662A41154}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{64A034EA-ACEB-4D48-8A00-2E7662A41154}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{65EA825E-648E-4BF0-8AA3-4E7724F75B07}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{65EA825E-648E-4BF0-8AA3-4E7724F75B07}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{65EA825E-648E-4BF0-8AA3-4E7724F75B07}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{66ABCD9E-0B52-4AEC-872C-837C3D7CC9C1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{66ABCD9E-0B52-4AEC-872C-837C3D7CC9C1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{66ABCD9E-0B52-4AEC-872C-837C3D7CC9C1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{68993996-4448-4B92-99B7-3715CE60D316}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{68993996-4448-4B92-99B7-3715CE60D316}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{68993996-4448-4B92-99B7-3715CE60D316}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6999AD77-7D2B-4929-B8BA-A253EDE63752}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6999AD77-7D2B-4929-B8BA-A253EDE63752}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6999AD77-7D2B-4929-B8BA-A253EDE63752}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{69E3A666-7F49-4B53-A77F-A8D14217E442}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{69E3A666-7F49-4B53-A77F-A8D14217E442}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{69E3A666-7F49-4B53-A77F-A8D14217E442}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6A10A7BB-7828-4050-9BD3-F4D2D97C6AB5}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6A10A7BB-7828-4050-9BD3-F4D2D97C6AB5}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6A10A7BB-7828-4050-9BD3-F4D2D97C6AB5}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6EBA710B-0C0F-4E86-859A-94829089E436}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6EBA710B-0C0F-4E86-859A-94829089E436}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{6EBA710B-0C0F-4E86-859A-94829089E436}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{70A93698-84F4-4B7A-9D04-B354DBC6C3F9}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{70A93698-84F4-4B7A-9D04-B354DBC6C3F9}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{70A93698-84F4-4B7A-9D04-B354DBC6C3F9}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{73E12250-549F-4799-9D6A-0F23C279BD6E}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{73E12250-549F-4799-9D6A-0F23C279BD6E}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{73E12250-549F-4799-9D6A-0F23C279BD6E}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78953289-3055-4D28-880A-AA9B61BAD3BD}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78953289-3055-4D28-880A-AA9B61BAD3BD}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78953289-3055-4D28-880A-AA9B61BAD3BD}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78AB3AA4-28A5-449B-959E-FFCC2602854D}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78AB3AA4-28A5-449B-959E-FFCC2602854D}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78AB3AA4-28A5-449B-959E-FFCC2602854D}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78EBC21F-0841-4D47-9DD4-E324F122205F}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78EBC21F-0841-4D47-9DD4-E324F122205F}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{78EBC21F-0841-4D47-9DD4-E324F122205F}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D106007-79F8-4D80-9CB7-B6CC4000F0B1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D106007-79F8-4D80-9CB7-B6CC4000F0B1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D106007-79F8-4D80-9CB7-B6CC4000F0B1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{82DF90A6-29B8-4BFC-9433-76A7BC3E0E82}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{82DF90A6-29B8-4BFC-9433-76A7BC3E0E82}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{82DF90A6-29B8-4BFC-9433-76A7BC3E0E82}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{88958592-6B2D-4CF1-9652-B9803F41990A}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{88958592-6B2D-4CF1-9652-B9803F41990A}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{88958592-6B2D-4CF1-9652-B9803F41990A}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{907F3EC0-A455-4B36-8FDC-F3A2B22F1BD2}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{907F3EC0-A455-4B36-8FDC-F3A2B22F1BD2}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{907F3EC0-A455-4B36-8FDC-F3A2B22F1BD2}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{92B5CBD6-68B3-4C17-A717-696CC27D893E}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{92B5CBD6-68B3-4C17-A717-696CC27D893E}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{92B5CBD6-68B3-4C17-A717-696CC27D893E}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{96B3C4B8-9F07-469D-ADAA-E1D14BF50341}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{96B3C4B8-9F07-469D-ADAA-E1D14BF50341}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{96B3C4B8-9F07-469D-ADAA-E1D14BF50341}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{9FC3155D-8F03-459F-9D96-65ADE17D3615}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{9FC3155D-8F03-459F-9D96-65ADE17D3615}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{9FC3155D-8F03-459F-9D96-65ADE17D3615}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A3F78ADD-62C2-475F-9040-80ACBFD412FA}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A3F78ADD-62C2-475F-9040-80ACBFD412FA}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A3F78ADD-62C2-475F-9040-80ACBFD412FA}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A74C26D2-2429-4099-8672-2250B15E327F}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A74C26D2-2429-4099-8672-2250B15E327F}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A74C26D2-2429-4099-8672-2250B15E327F}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{ABC37F7C-0423-42E4-BBD2-E713B8BD3BA1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{ABC37F7C-0423-42E4-BBD2-E713B8BD3BA1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{ABC37F7C-0423-42E4-BBD2-E713B8BD3BA1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{AC217674-DB08-4F7E-AB20-9F5F1026C464}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{AC217674-DB08-4F7E-AB20-9F5F1026C464}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{AC217674-DB08-4F7E-AB20-9F5F1026C464}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B1BB04F7-7CA9-4BD7-AE19-EA936D611F91}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B1BB04F7-7CA9-4BD7-AE19-EA936D611F91}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B1BB04F7-7CA9-4BD7-AE19-EA936D611F91}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B2429147-23BE-4A55-8EAE-2AFF2635815B}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B2429147-23BE-4A55-8EAE-2AFF2635815B}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B2429147-23BE-4A55-8EAE-2AFF2635815B}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B4EC2631-0DC1-4791-B691-BE333E574CC2}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B4EC2631-0DC1-4791-B691-BE333E574CC2}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B4EC2631-0DC1-4791-B691-BE333E574CC2}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B70D813F-5CE3-4C93-A793-B21CD8CE133A}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B70D813F-5CE3-4C93-A793-B21CD8CE133A}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{B70D813F-5CE3-4C93-A793-B21CD8CE133A}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{BA1083B2-D377-4650-8688-B7972CD5B570}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{BA1083B2-D377-4650-8688-B7972CD5B570}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{BA1083B2-D377-4650-8688-B7972CD5B570}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C3FC6EA1-3982-45AA-8CB8-B3BFC9DFDDC7}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C3FC6EA1-3982-45AA-8CB8-B3BFC9DFDDC7}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C3FC6EA1-3982-45AA-8CB8-B3BFC9DFDDC7}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C604DBFD-657D-438D-8399-4B990CB1819C}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C604DBFD-657D-438D-8399-4B990CB1819C}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C604DBFD-657D-438D-8399-4B990CB1819C}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C95EAE19-C7B8-4297-A6C6-B4B973A8B867}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C95EAE19-C7B8-4297-A6C6-B4B973A8B867}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{C95EAE19-C7B8-4297-A6C6-B4B973A8B867}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC3B92E4-C58C-40FE-A271-E407A7775848}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC3B92E4-C58C-40FE-A271-E407A7775848}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC3B92E4-C58C-40FE-A271-E407A7775848}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC55FCB9-0500-45C2-8FED-CCB7D1A54A24}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC55FCB9-0500-45C2-8FED-CCB7D1A54A24}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CC55FCB9-0500-45C2-8FED-CCB7D1A54A24}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CEDB6B70-ED7D-4F9E-A0BC-66AFB42F7735}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CEDB6B70-ED7D-4F9E-A0BC-66AFB42F7735}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{CEDB6B70-ED7D-4F9E-A0BC-66AFB42F7735}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D01DB5A3-B9B7-4837-9874-FBA5BA171976}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D01DB5A3-B9B7-4837-9874-FBA5BA171976}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D01DB5A3-B9B7-4837-9874-FBA5BA171976}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D647A429-3349-47B5-B62D-7EF758000363}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D647A429-3349-47B5-B62D-7EF758000363}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D647A429-3349-47B5-B62D-7EF758000363}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D66A2F08-A267-4593-ACD4-3EF65255E005}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D66A2F08-A267-4593-ACD4-3EF65255E005}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D66A2F08-A267-4593-ACD4-3EF65255E005}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D67AF44C-0AA8-424A-AF73-2070B4C11781}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D67AF44C-0AA8-424A-AF73-2070B4C11781}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D67AF44C-0AA8-424A-AF73-2070B4C11781}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D6CEA276-E79C-4026-BD46-933E3C8F88D8}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D6CEA276-E79C-4026-BD46-933E3C8F88D8}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D6CEA276-E79C-4026-BD46-933E3C8F88D8}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D8706DCB-91E3-409C-AAEF-082CE6F9B905}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D8706DCB-91E3-409C-AAEF-082CE6F9B905}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D8706DCB-91E3-409C-AAEF-082CE6F9B905}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DA61F111-C1C4-432F-819D-6EDA9DEFEA67}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DA61F111-C1C4-432F-819D-6EDA9DEFEA67}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DA61F111-C1C4-432F-819D-6EDA9DEFEA67}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DE9FC63E-73D2-4952-BB8B-9C37A7ADE1E6}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DE9FC63E-73D2-4952-BB8B-9C37A7ADE1E6}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DE9FC63E-73D2-4952-BB8B-9C37A7ADE1E6}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF519DD3-CF6D-4BC1-A68C-9049FFF6713D}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF519DD3-CF6D-4BC1-A68C-9049FFF6713D}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF519DD3-CF6D-4BC1-A68C-9049FFF6713D}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF989EA3-0F71-4201-87BE-4EAC008F4340}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF989EA3-0F71-4201-87BE-4EAC008F4340}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DF989EA3-0F71-4201-87BE-4EAC008F4340}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DFFB3371-78AA-45C5-B8A2-32BB1DD5C846}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DFFB3371-78AA-45C5-B8A2-32BB1DD5C846}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DFFB3371-78AA-45C5-B8A2-32BB1DD5C846}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E385A6A7-3557-47F5-9763-252278262C41}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E385A6A7-3557-47F5-9763-252278262C41}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E385A6A7-3557-47F5-9763-252278262C41}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E54CDB98-DD19-4155-841C-6DBA6618D5D8}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E54CDB98-DD19-4155-841C-6DBA6618D5D8}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E54CDB98-DD19-4155-841C-6DBA6618D5D8}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E59035A9-E94D-47E8-92BF-59A4EB1AAC83}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E59035A9-E94D-47E8-92BF-59A4EB1AAC83}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E59035A9-E94D-47E8-92BF-59A4EB1AAC83}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E9464A9F-B8D4-443D-88C3-DF3E9C6308AA}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E9464A9F-B8D4-443D-88C3-DF3E9C6308AA}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E9464A9F-B8D4-443D-88C3-DF3E9C6308AA}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E98C2D0C-6053-4568-9BCE-D6350C39CD93}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E98C2D0C-6053-4568-9BCE-D6350C39CD93}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E98C2D0C-6053-4568-9BCE-D6350C39CD93}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{EFA96FEC-9371-4C3B-AB6D-DA9CDEF3CC41}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{EFA96FEC-9371-4C3B-AB6D-DA9CDEF3CC41}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{EFA96FEC-9371-4C3B-AB6D-DA9CDEF3CC41}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F19E7679-F483-46D4-9E87-0253F0820A02}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F19E7679-F483-46D4-9E87-0253F0820A02}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F19E7679-F483-46D4-9E87-0253F0820A02}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F21F7AF3-32B0-48D9-B99D-A08159D2B463}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F21F7AF3-32B0-48D9-B99D-A08159D2B463}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F21F7AF3-32B0-48D9-B99D-A08159D2B463}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F27B0378-FAE6-4A75-A018-697CFB5B9864}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F27B0378-FAE6-4A75-A018-697CFB5B9864}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F27B0378-FAE6-4A75-A018-697CFB5B9864}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F28D37F7-F537-45B0-BD88-A5877FC649DD}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F28D37F7-F537-45B0-BD88-A5877FC649DD}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F28D37F7-F537-45B0-BD88-A5877FC649DD}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8295E9E-9E5B-486E-AA93-33E5726C4EE6}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8295E9E-9E5B-486E-AA93-33E5726C4EE6}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8295E9E-9E5B-486E-AA93-33E5726C4EE6}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8CB82D2-BECB-41EA-8356-B1F1A89E9DF1}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8CB82D2-BECB-41EA-8356-B1F1A89E9DF1}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F8CB82D2-BECB-41EA-8356-B1F1A89E9DF1}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F9B4FBE1-4059-4C53-8342-585BC9D68947}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F9B4FBE1-4059-4C53-8342-585BC9D68947}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F9B4FBE1-4059-4C53-8342-585BC9D68947}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FA61EA29-BFF4-4CC4-AEC6-C7BA6590178F}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FA61EA29-BFF4-4CC4-AEC6-C7BA6590178F}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FA61EA29-BFF4-4CC4-AEC6-C7BA6590178F}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FCC90B64-42F9-47A7-84D3-0DD681A6CA07}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FCC90B64-42F9-47A7-84D3-0DD681A6CA07}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FCC90B64-42F9-47A7-84D3-0DD681A6CA07}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF4DF009-0001-41ED-BABB-5B4967515601}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF4DF009-0001-41ED-BABB-5B4967515601}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF4DF009-0001-41ED-BABB-5B4967515601}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF6CA005-E9AA-418C-9555-3842B8BD54BB}\MiscStatus\1" Value="132497" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF6CA005-E9AA-418C-9555-3842B8BD54BB}\MiscStatus" Value="0" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{FF6CA005-E9AA-418C-9555-3842B8BD54BB}\ToolboxBitmap32" Value="[#fil643288A9E24806D65588AD031CB2BB4F], 102" Type="string" Action="write" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

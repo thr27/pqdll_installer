@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SystemFolder" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="proQuest.airQuest.eNettVAN">
+            <Component Id="cmp6D5679B198C0F135B9A46A6F1C835890" Directory="SystemFolder" Guid="{B67659D0-DB15-46B0-964D-16636BC5BD58}">
+                <Class Id="{00AB6594-84A4-3B63-BA5D-60655E340B73}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" />
+                </Class>
+                <Class Id="{01965727-CB67-398E-B53B-A003AE5278C2}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" />
+                </Class>
+                <Class Id="{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" />
+                </Class>
+                <Class Id="{0D8CBE99-DD9C-3369-8979-81383926D96E}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" />
+                </Class>
+                <Class Id="{137757C7-B271-307A-8C4C-FBDABF6A8A1D}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" />
+                </Class>
+                <Class Id="{2800585B-ED2D-3B11-A1A2-46D372D62723}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" />
+                </Class>
+                <Class Id="{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" />
+                </Class>
+                <Class Id="{4BE965F6-846D-32A4-B019-2A2DB576159D}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" />
+                </Class>
+                <Class Id="{52E15780-2022-352F-B35E-D464F1004162}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" />
+                </Class>
+                <Class Id="{53E44AD8-B64B-330B-8E52-68F0B3B009E9}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" />
+                </Class>
+                <Class Id="{67E5898D-1F5D-3BA9-8828-13A5094A54C4}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" />
+                </Class>
+                <Class Id="{864BA566-69D8-354A-9D6D-111E2E9B7A47}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" />
+                </Class>
+                <Class Id="{903074B4-1977-3281-B6E8-0FC16506BE3B}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" />
+                </Class>
+                <Class Id="{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" />
+                </Class>
+                <Class Id="{A31C2F3D-DD36-3D32-B804-6B5A5262C874}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" />
+                </Class>
+                <Class Id="{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.RequestPara" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.RequestPara" Description="proQuest.airQuest.eNettVAN.RequestPara" />
+                </Class>
+                <Class Id="{E102BC8A-4908-3423-80F4-EBE3FF564F44}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.eNettApi" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.eNettApi" Description="proQuest.airQuest.eNettVAN.eNettApi" />
+                </Class>
+                <Class Id="{F219CC03-4329-3E86-9E2C-E329D07F632F}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" />
+                </Class>
+                <Class Id="{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}" Context="InprocServer32" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Description="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" />
+                </Class>
+                <File Id="fil5BE88290553EB59E8B09FEF44125221A" KeyPath="yes" Source="$(sys.SOURCEFILEDIR)\proQuest.airQuest.eNettVAN.dll" />
+                <ProgId Id="Record" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{00AB6594-84A4-3B63-BA5D-60655E340B73}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReference" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{01965727-CB67-398E-B53B-A003AE5278C2}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0B507E96-C04A-3085-87E1-4CBE41ACD9B2}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{0D8CBE99-DD9C-3369-8979-81383926D96E}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistory" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{137757C7-B271-307A-8C4C-FBDABF6A8A1D}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2800585B-ED2D-3B11-A1A2-46D372D62723}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetFxQuoteResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{2EFFEB2A-7A62-3AF8-A69F-FDA824FEDBBD}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.UserReferenceCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{4BE965F6-846D-32A4-B019-2A2DB576159D}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{52E15780-2022-352F-B35E-D464F1004162}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.GetVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{53E44AD8-B64B-330B-8E52-68F0B3B009E9}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IssueVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{67E5898D-1F5D-3BA9-8828-13A5094A54C4}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.IvNettServiceV2Client" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{864BA566-69D8-354A-9D6D-111E2E9B7A47}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistoryCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{903074B4-1977-3281-B6E8-0FC16506BE3B}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelVANResponse" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A0D5750A-FABD-3C4C-AF3A-4A3C9AFD81B0}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.FxHistory" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{A31C2F3D-DD36-3D32-B804-6B5A5262C874}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.RequestPara" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{DB017A5F-5375-33C1-8EF5-1A4EE85559E4}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.eNettApi" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{E102BC8A-4908-3423-80F4-EBE3FF564F44}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.AmendVANRequest" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F219CC03-4329-3E86-9E2C-E329D07F632F}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.VanHistoryCollection" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{F76A4FE8-B110-38B7-AD45-08EBE1EDA59A}\InprocServer32" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1" Name="Class" Value="proQuest.airQuest.eNettVAN.vNettServiceV2.CancelReasonType" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1" Name="Assembly" Value="proQuest.airQuest.eNettVAN, Version=1.0.5.1, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{689A0F18-0452-3746-B447-48B565C40E9C}\1.0.5.1" Name="CodeBase" Value="file:///[#fil5BE88290553EB59E8B09FEF44125221A]" Type="string" Action="write" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>
